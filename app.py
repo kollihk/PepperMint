@@ -6,8 +6,6 @@ from pathlib import Path
 from dotenv import load_dotenv
 import streamlit as st
 
-from  authenticate_sneakers import Product, Database
-
 load_dotenv()
 
 # Define and connect a new Web3 provider
@@ -49,16 +47,6 @@ def load_contract():
 csv_path = Path("./Data_files/Encoded_Data_Adidas.csv")
 hashes_df = pd.read_csv(csv_path)
 
-# Initialize database
-#product_hashes = Database([])
-#product_database = Database([Products(name="Nike", serial_no=1,invoice=11)])
-
-
-#for index,product in product_database.iterrows():
-#    db_product = Product(name=product['Name'],serial_no=product['Serial Number'],invoice=product['Invoice Number'],timestamp=product['Timestamp'])
-#    product_hashes.add_product_hash(db_product.hash_product())
-
-#hashes_df = pd.DataFrame(product_hashes.database, columns=['Hash'])
 st.write(hashes_df)
 ################################################################################
 # Award Certificate
@@ -70,8 +58,7 @@ accounts = w3.eth.accounts
 account = accounts[0]
 student_account = st.selectbox("Select Account", options=accounts)
 
-# Create a dict of a product {Name:"",Serial No: int, invoice:int,Timestamp:str, Hash:str}
-#product_details = {}
+
 customer_hash = st.text_input("Enter the product hashcode from the box:")
 
 #if customer_hash in hashes_df.Hashcode:
