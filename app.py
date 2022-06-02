@@ -62,22 +62,30 @@ student_account = st.selectbox("Select Account", options=accounts)
 customer_hash = st.text_input("Enter the product hashcode from the box:")
 
 #if customer_hash in hashes_df.Hashcode:
-st.write(customer_hash)
+#st.write(customer_hash)
+row = hashes_df.loc[hashes_df['Hashcode'] == customer_hash] 
+st.write(row)
 
 
 
-
-if st.button("Award Certificate"): 
-
+if st.button("Mint NFT"): 
+   
     #st.write(customer_hash)
 # json.dumps(dict)
-    for hashes in hashes_df.Hashcode:
-      if customer_hash in hashes:
-        # for status in hashes_df.Status:
-        #     if "true" in status:
-   # if new_hash in product_hashes.database:
-                contract.functions.awardCertificate(student_account, json.dumps(customer_hash)).transact({'from': account, 'gas': 1000000})
-                st.write("The hash is valid and not used")
+    #for hash in hashes_df.Hashcode:
+     # if customer_hash in hashes_df.Hashcode:
+          if not row.empty and row['Status'].bool():
+                 
+                
+              contract.functions.awardCertificate(student_account, json.dumps(customer_hash)).transact({'from': account, 'gas': 1000000})
+              st.write("The hash is valid and not used")
+             # hashes_df.loc[hashes_df['Status'] == "false"]
+              row["Status"] = "false"
+              hashes_df.loc[hashes_df["Hashcode"] == customer_hash, ["Status"]] = "false"
+              hashes_df.to_csv("./Data_files/Encoded_Data_Adidas.csv",index=False)
+              st.write(row)
+          else:
+              st.write("Invalid or already used hashcode")  
 ################################################################################
 # Display Certificate
 ################################################################################
