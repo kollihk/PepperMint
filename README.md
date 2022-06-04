@@ -9,6 +9,12 @@
 5. If the hash is found, a call to the contract function is made to mint an NFT
 4. Verify that the minted NFT is in users' wallet
 
+## installations
+pip install streamlit_option_menu
+pip install OpenCV 
+pip install OpenCV 
+pip install webbrowser ( built in )
+
 
 ### User Journey 
 #### Consumer 
