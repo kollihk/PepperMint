@@ -6,6 +6,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 import streamlit as st
 
+from  authenticate_sneakers import Product, Database
+
 load_dotenv()
 
 # Define and connect a new Web3 provider
@@ -42,11 +44,24 @@ def load_contract():
 ################################################################################
 
 # Static database for testing, A csv to be generated and used subsequently
+product_dict = {
+    'Name': ['Nike','Adidas', 'Sketchers', 'New Balance', 'Fila', 'Nike Jordan', 'Adidas'],
+    'Serial Number': [0,1,2,3,4,5,6],
+    'Invoice Number': [11,22,33,44,55,66,77],
+    'Timestamp': ['2022-03-11 10:00:46','2022-03-12 01:00:46','2022-02-11 11:45:46','2021-12-01 03:00:46','2022-05-11 00:00:46','2022-04-11 12:20:46','2022-04-11 00:10:41']
+    }
+product_database = pd.DataFrame(product_dict)
+# Initialize database
 
-# Our application will be connected with oracles that read data from the companies database, for testing we use csv.
-csv_path = Path("./Data_files/Encoded_Data_Adidas.csv")
-hashes_df = pd.read_csv(csv_path)
+product_hashes = Database([])
+#product_database = Database([Products(name="Nike", serial_no=1,invoice=11)])
 
+
+for index,product in product_database.iterrows():
+    db_product = Product(name=product['Name'],serial_no=product['Serial Number'],invoice=product['Invoice Number'],timestamp=product['Timestamp'])
+    product_hashes.add_product_hash(db_product.hash_product())
+
+hashes_df = pd.DataFrame(product_hashes.database, columns=['Hash'])
 st.write(hashes_df)
 ################################################################################
 # Award Certificate
@@ -58,34 +73,30 @@ accounts = w3.eth.accounts
 account = accounts[0]
 student_account = st.selectbox("Select Account", options=accounts)
 
+# Create a dict of a product {Name:"",Serial No: int, invoice:int,Timestamp:str, Hash:str}
+product_details = {}
 
-customer_hash = st.text_input("Enter the product hashcode from the box:")
+product_details['pr_name'] = st.text_input("Enter Product Name:")
+product_details['pr_service_no'] = st.text_input("Enter service number:")
+product_details['pr_invoice'] = st.text_input("Enter invoice details:")
+product_details['pr_timestamp'] = st.text_input("Enter Timestamp:")
 
-#if customer_hash in hashes_df.Hashcode:
-#st.write(customer_hash)
-row = hashes_df.loc[hashes_df['Hashcode'] == customer_hash] 
-st.write(row)
+# calculate hash and validate
 
+new_product = Product(
+                name=product_details['pr_name'],
+                serial_no=product_details['pr_service_no'],
+                invoice=product_details['pr_invoice'],
+                timestamp=product_details["pr_timestamp"]
+                )
+new_hash = new_product.hash_product()
+if st.button("Award Certificate"):
 
-
-if st.button("Mint NFT"): 
-   
-    #st.write(customer_hash)
+    st.write(new_hash)
 # json.dumps(dict)
-    #for hash in hashes_df.Hashcode:
-     # if customer_hash in hashes_df.Hashcode:
-          if not row.empty and row['Status'].bool():
-                 
-                
-              contract.functions.awardCertificate(student_account, json.dumps(customer_hash)).transact({'from': account, 'gas': 1000000})
-              st.write("The hash is valid and not used")
-             # hashes_df.loc[hashes_df['Status'] == "false"]
-              row["Status"] = "false"
-              hashes_df.loc[hashes_df["Hashcode"] == customer_hash, ["Status"]] = "false"
-              hashes_df.to_csv("./Data_files/Encoded_Data_Adidas.csv",index=False)
-              st.write(row)
-          else:
-              st.write("Invalid or already used hashcode")  
+    if new_hash in product_hashes.database:
+        _id = contract.functions.awardCertificate(student_account, json.dumps(product_details)).transact({'from': account, 'gas': 1000000})
+
 ################################################################################
 # Display Certificate
 ################################################################################

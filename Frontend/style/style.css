@@ -1,0 +1,17 @@
+/*Turn off native Straemlit display features */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+svg {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
