@@ -10,10 +10,10 @@
 4. Verify that the minted NFT is in users' wallet
 
 ## installations
-pip install streamlit_option_menu
-pip install OpenCV 
-pip install OpenCV 
-pip install webbrowser ( built in )
+* pip install streamlit_option_menu
+* pip install OpenCV 
+* pip install OpenCV 
+* pip install webbrowser ( built in )
 
 
 ### User Journey 
