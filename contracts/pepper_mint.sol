@@ -29,7 +29,7 @@ contract pepperMint is ERC721Full {
             uint256 totalNft = totalSupply();
             uint256 resultIndex = 0;
 
-            uint256 SneakerId;
+            uint256 NftId;
 
             for (NftId = 1; NftId <= totalNft; NftId++) {
                 if (nftOwners[NftId] == _owner) {

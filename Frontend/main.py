@@ -139,24 +139,24 @@ elif selected == "Mint NFT":
     st.title("Mint NFT via Metamask")
     st.text("******")
      
-    if st.button("Authenticate and Mint my Shoes"):
+    #if st.button("Authenticate and Mint my Shoes"):
         # st.text(" Run Webcam!")
-        product_hashcode = scan()
-        st.text(product_hashcode)
-        row = df.loc[df['hashcode'] == product_hashcode] 
+    product_hashcode = scan()
+    st.text(product_hashcode)
+    row = df.loc[df['hashcode'] == product_hashcode] 
         
-        st.write(row)
+    st.write(row)
                 
         
    
 
-    #if st.button("Mint My NFT"): 
+    if st.button("Mint My NFT"): 
                 #customer_account = st.selectbox("Select Account", options=accounts)
         
         
         
-        if st.button("show df"):
-               st.dataframe(df)
+       # if st.button("show df"):
+               #st.dataframe(df)
         if not row.empty and row['minted'].bool():
                 
             print("before contract")
