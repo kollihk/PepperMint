@@ -47,9 +47,9 @@ st.markdown('<link rel="stylesheet" href="./style/style.css" crossorigin="anonym
 
 # Product Authentication df
 df= pd.read_csv("./products_DB/product_info.csv", index_col=3)
-
+#row = pd.read_csv("./products_DB/row.csv",index_col=3)   
 # Straemlit Menu
-# Repo: https://github.com/victoryhb/streamlit-option-menu
+#Repo: https://github.com/victoryhb/streamlit-option-menu
 def streamlit_menu():        
         selected = option_menu(
             menu_title=None,  # required
@@ -94,18 +94,18 @@ def scan():
     cap.release()
     cv2.destroyAllWindows()
     
-    return (product_hashcode)
+    return product_hashcode
 
 
 # Main Page Content
 # -----------------------------------------------------------------
-#@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 # Define the load_contract function
 def load_contract():
     
     # Load ABI
     with open(Path('../contracts/compiled/peppermint_abi.json')) as f:
-        certificate_abi = json.load(f)
+        peppermint_abi = json.load(f)
 
     # Set the contract address (this is the address of the deployed contract)
     contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
@@ -113,7 +113,7 @@ def load_contract():
     # Get the contract
     contract = w3.eth.contract(
         address=contract_address,
-        abi=certificate_abi
+        abi=peppermint_abi
     )
     # Return the contract from the function
     return contract
@@ -127,51 +127,45 @@ customer_account = st.selectbox("Select Account", options=accounts)
 selected = streamlit_menu()
 
 # Home ----------------------------
-if selected == "Home":    
-    st.title("Mint NFT of your Purchased Product By Scanning it's QR Code!")
-    # st.write("Simply Scan to Connect your Metamask and Mint NFT")
-    # st.image('./images/QR.png')    
+# if selected == "Home":    
+#     st.title("Mint NFT of your Purchased Product By Scanning it's QR Code!")
+#     st.write("Simply Scan to Connect your Metamask and Mint NFT")
+#     st.image('./images/QR.png')    
 
-#row = None
-# Mint NFT ----------------------------
-elif selected == "Mint NFT":
+
+# #Mint NFT ----------------------------
+# elif selected == "Mint NFT":
     
-    st.title("Mint NFT via Metamask")
-    st.text("******")
-     
-    #if st.button("Authenticate and Mint my Shoes"):
-        # st.text(" Run Webcam!")
-    product_hashcode = scan()
-    st.text(product_hashcode)
-    row = df.loc[df['hashcode'] == product_hashcode] 
-        
-    st.write(row)
+#   st.title("Mint NFT via Metamask")
+#   st.text("Show your code to the camera")
+  
+if st.button("Authenticate My Product"):
+   st.text(" Run Webcam!")
+   product_hashcode = scan()
+   st.text(product_hashcode)
+   row = df.loc[df['hashcode'] == product_hashcode] 
+   st.write(row)
                 
-        
-   
 
-    if st.button("Mint My NFT"): 
-                #customer_account = st.selectbox("Select Account", options=accounts)
+   #if st.button("Mint My NFT"): 
+
+   if not row.empty and row['minted'].bool():
+                        
         
+        contract.functions.mintCEGH(customer_account, json.dumps(product_hashcode)).transact({'from': account, 'gas': 1000000})
+        st.write("Your NFT has been PepperMinted!")
         
+        row["minted"] = "FALSE"
+        df.loc[df["hashcode"] == product_hashcode, ["minted"]] = "FALSE"
         
-       # if st.button("show df"):
-               #st.dataframe(df)
-        if not row.empty and row['minted'].bool():
+        df.to_csv("./products_DB/product_info.csv",index=False)
+        st.write(row)
                 
-            print("before contract")
-            contract.functions.mintCEGH(customer_account, json.dumps(product_hashcode)).transact({'from': account, 'gas': 1000000})
-            st.write("The hash is valid and not used")
-            
-            row["minted"] = "TRUE"
-            df.loc[df["hashcode"] == product_hashcode, ["minted"]] = "TRUE"
-            df.to_csv("./products_DB/product_info.csv",index=False)
-            
-        
 
-            # st.write(df)
-        else:
-                st.write("Invalid or already used hashcode")
+                   
+   else:
+        st.warning("Invalid or already used hashcode")
+        st.write(row)
 
 
 
@@ -182,7 +176,7 @@ elif selected == "Mint NFT":
 
       
 # My Account --------------------------
-if selected == "Account":
+elif selected == "Account":
     st.title("Account Balance")
     st.text("******")    
 
@@ -190,8 +184,8 @@ if selected == "Account":
     # st.dataframe(df)
 
 
-# About ----------------------------
-if selected == "About":
+# # About ----------------------------
+elif selected == "About":
     st.title("About this dApp:")
     st.markdown("""Lorem Ipsum, sometimes referred to as 'lipsum', is the placeholder text used in design when creating content. It helps designers plan out where the content will sit, without needing to wait for the content to be written and approved. It originally comes from a Latin text, but to today's reader, it's seen as gibberish.""")
     
