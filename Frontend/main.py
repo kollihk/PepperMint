@@ -104,7 +104,7 @@ def scan():
 def load_contract():
     
     # Load ABI
-    with open(Path('../contracts/compiled/certificate_abi.json')) as f:
+    with open(Path('../contracts/compiled/peppermint_abi.json')) as f:
         certificate_abi = json.load(f)
 
     # Set the contract address (this is the address of the deployed contract)
@@ -144,17 +144,17 @@ elif selected == "Mint NFT":
         product_hashcode = scan()
         st.text(product_hashcode)
         row = df.loc[df['hashcode'] == product_hashcode] 
-        print(row)
+        
         st.write(row)
-        print("im here")         
+                
         
    
 
     #if st.button("Mint My NFT"): 
                 #customer_account = st.selectbox("Select Account", options=accounts)
-        print("second step")
-        st.write(row)
-        print(row)
+        
+        
+        
         if st.button("show df"):
                st.dataframe(df)
         if not row.empty and row['minted'].bool():
