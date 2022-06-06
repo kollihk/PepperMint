@@ -1,94 +1,97 @@
 # capstone-project
 
+# Problem Overview 
+
+Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner. 
+
+In 2018, Forbes reported that counterfeiting was the largest criminal enterprise in the world. Sales of counterfeit and pirated goods totals $1.7 trillion per year, which is more than drugs and human trafficking. It is expected to grow to $2.8 trillion and cost 5.4 million jobs by 2022. 
+
+According to The Counterfeit Report, "China produces 80% of the world's counterfeits and we're supporting China. Whether or not it's their intention to completely undermine and destroy the U.S. economy, we [in the United States] buy about 60% to 80% of the products." It states:
+
+Companies spend millions or billions of dollars building brands, and building reputations and they're being completely destroyed by counterfeits. And when you take that across a universe of goods, Americans' confidence in their own products is nonexistent. Retailers, the malls, the retail stores are closing up, and we're becoming a duopoly of Walmart and Amazon.
+
+
+
+
+
+
+Image: Fake designer bags in Asia
+
+https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
+
+
+In addition to the economic growth of legitimate business, the production and trafficking of counterfeit products poses a significant health and safety threat to consumers. 
+
+“Counterfeit products not only attack the name and value of a known business, but, in many cases, can cause harmful, and sometimes fatal, consequences for the unsuspecting buyer,” said Mark Zito, Deputy Special Agent in Charge for HSI Los Angeles.
+Source: https://www.ice.gov/features/dangers-counterfeit-items 
+
+Some of the most dangerous counterfeit products involve automotive parts, electronics, safety equipment, cosmetics and prescription drugs due to the threats they represent to public health and safety.  Examples include: 
+* Counterfeit airbags and their components can cause severe malfunctions ranging from non-deployment, under inflation, over inflation to explosion of metal shrapnel during deployment in a crash.
+* Counterfeit lithium-ion laptop batteries pose significant risk of extreme heat, self-igniting, and exploding.
+* Counterfeit helmets and baby carriers can break.
+* Counterfeit prescription drugs may not contain the active ingredient or could lead to accidental overdose.
+* Counterfeit cosmetics can cause severe skin reactions.
+
+## Introducing pepperMint () 
+
+Introducing pepperMint(), a decentralized solution to the world's $2.8 trillion dollar counterfeit problem. #TODO Elaborate. 
+
+Everyone wants to get rich off NFTs, many are creating NFTs, some are trading NFTs, but a very small percentage comprehend what an NFT really is. 
+
+### Sentiment Analysis 
+
+
+
+
+### K-Means Exploration 
+
+
+
+
+
+ 
+### What is an NFT? (for non-technical readers)
+
+An NFT is a non-fungible token which means that each token is unique and not interchangeable. NFTs are minted (issued) on a decentralized distributed-ledger technology (DLT) network that is neither controlled nor dependent on one single centralized instance. 
+
+An NFT is controlled only by the person holding the private keys to the address to which an NFT is assigned in the smart contract ledger and are freely transferable within and outside various metaverses and marketplaces.
+
+### Brand Adoption of NFTs in the Metaverse
+
+
+### pepperMint(): A Real World Implementation of Non Fungible Tokens
+
+pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. 
+
+NFTs can be used to verify the authenticity of physical goods by storing all relevant information relating to a product in an NFT on a decentralized network.  The successful use of the technology is based on how the product to be protected can be connected to the DLT. pepperMint() achieves product protection with the use of QR codes in the NFT minting process. 
+
+#### Case Study: Breitling Designer Watches
+
+Since 13 October 2020, all new Breitling watches are delivered with a blockchain based digital passport to guarantee the products authenticity. Consumers are afforded the benefit of blockchain technology, digital security and proof of ownership. 
 
 https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-b983-b4f5f92d7241.mp4
 
 
 
 
-This week, you will begin work on your final project of the boot camp! You can choose any topic from any section of the course for this capstone project.
+### Features and Benefits 
 
-Project examples include:
 
-* Tokenize an asset using the proper ERC standards
-* Create a decentralized auction in Solidity
-* Build a digital marketplace powered by smart contracts
-* Create an automated algorithmic trading system
-* Design an in-depth dashboard for investors to quickly visualize their portfolios
-* Use machine learning and NLP to predict trends in stock prices
+### Code Discussion 
 
-## Technical Requirements
 
-Note that your assignment will be graded according to the following rubric:
 
-* Proficiency (&ge; 90% of the points)
+### User Demonstration 
 
-* Approaching proficiency (&ge; 80% of the points)
 
-* Progressing (&ge; 70% of the points)
 
-* Emerging (&lt; 70% of the points)
 
-The following subsections list the technical requirements for the final Capstone project.
+### Unancticipated Problems and Insights 
 
-### Software Version Control (10 points)
 
-* Repository created on GitHub. (2 points)
 
-* Files frequently committed to repository. (3 points)
 
-* Commit messages with appropriate level of detail included. (2 points)
+### Additional Questions for Exploration 
 
-* Repository organized, and relevant information and project files included. (3 points)
 
-### Data Collection and Preparation (10 points)
 
-* Data collected, cleaned, and prepared for the application or analysis. (10 points)
-
-### Development  (40 points)
-
-* Jupyter notebook, Google Colab notebook, Amazon SageMaker Studio notebook, or Streamlit application created. (10 points)
-
-* One or more Python modules, machine learning models, or Solidity smart contracts created. (10 points)
-
-* Calculations, metrics, visualizations, or video needed to demonstrate the application included. (10 points)
-
-* One new technology or library used that the class hasn't covered. (10 points)
-
-### Documentation (15 points)
-
-* Code is well commented with concise, relevant notes. (5 points)
-
-* GitHub `README.md` file includes a concise project overview. (2 points)
-
-* GitHub `README.md` file includes detailed usage and installation instructions. (3 points)
-
-* GitHub `README.md` file includes either examples of the application or the results and summary of the analysis. (5 points)
-
-### Presentation (25 points)
-
-Each project group will prepare a formal 10-minute presentation that includes the following:
-
-* An executive summary of the project and project goals. (5 points)
-
-    * Explain how this project relates to fintech.
-
-* The approach that your group took to achieve the project goals. (10 points)
-
-    * Include any relevant code or demonstrations of the analysis or application.
-
-    * Describe the techniques that you used to test or evaluate the code.
-
-    * Discuss any unanticipated insights or problems that arose and how you resolved them.
-
-* The results and conclusions from the analysis or application. (5 points)
-
-    * Include relevant images or examples to support your work.
-
-    * If the project goal wasn’t achieved, share the issues and what the group tried for resolving them.
-
-* Next steps. (5 points)
-
-    * Take a moment to discuss the potential next steps for the project.
-
-    * Discuss any additional questions that you’d explore if you had more time. Specifically, if you had additional weeks to work on your project, what would you research next?
