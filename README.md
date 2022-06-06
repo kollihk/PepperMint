@@ -1,7 +1,5 @@
 ![counterfeitGoodsBanner](https://user-images.githubusercontent.com/95597283/172132655-b249ef37-5212-4662-949c-e3a6df3fcada.jpg)
 
-
-
 # Introduction
 
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner. 
@@ -53,15 +51,6 @@ Everyone wants to get rich off NFTs, many are creating NFTs, some are trading NF
 An NFT is a non-fungible token which means that each token is unique and not interchangeable. NFTs are minted (issued) on a decentralized distributed-ledger technology (DLT) network that is neither controlled nor dependent on one single centralized instance. 
 
 An NFT is controlled only by the person holding the private keys to the address to which an NFT is assigned in the smart contract ledger and are freely transferable within and outside various metaverses and marketplaces.
-
-### K-Means Exploration 
-
-Data used = 
-
-#TODO: CN to insert findings 
-
-
- 
 
 ### Major Brand Adoption of the Metaverse
 
