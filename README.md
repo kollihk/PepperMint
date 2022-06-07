@@ -87,6 +87,14 @@ Some businessnes ignore the creation of fake products under their branding, as t
 
 ### Blockchain as a Solution 
 
+Blockchain can address the worlds counterfeiting problem by identifying a products proof of origin which can assist quality checks at every level, between the manufacturers production to consumer delivery.
+
+Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include: 
+* RFID tags: Radio frequency identification tags use radio waves for communication. A reader is required to receive signals from an RFID tag.
+* QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
+* NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
+
+This project demonstrates the implementation of QR codes within our proposed solution.
 
 
 discuss
