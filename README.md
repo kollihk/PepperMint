@@ -154,7 +154,7 @@ The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 i
 
 <img align="left" src="images/coca.png">
 
-In July 2021, and in observance of the Special Olympics, the soft drink behemoth teamed up with 3-D digital design studio Tafi for its inaugural NFT campaign. The campaign centered around “loot boxes,” which were basically virtual goodie bags that contained a variety of one-of-one digital assets — including a branded puffer jacket wearable NFT, a “sound visualizer” NFT (which “captures the experience of sharing a Coca-Cola”), and a “friendship card” NFT (a digital revival of the brand’s famous 1940s trading cards). Blending utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands that are looking to ingratiate themselves with the metaverse.
+In July 2021, Coke teamed up Tafi (3D digital design studio) for its inaugural NFT campaign. The NFT campaign centered around “loot boxes,” that were virtual goodie bags containing a variety of digital assets, including a branded puffer jacket wearable NFT, a sound visualizer NFT, and a friendship card NFT.  Combining utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands entering the metaverse.
 
 #### Nike
 
@@ -166,13 +166,13 @@ Nikeland was one of the first major efforts from a top-tier brand to blend sales
 
 <img align="left" src="images/gucci.png">
 
-in 2021 — in celebration of its one hundredth anniversary — it launched the “Gucci Garden Archetypes,” a two-week virtual experience “that explores and celebrates the house’s inimitable creative vision,” Gucci said in a statement at the time. And just last week, the brand launched “Gucci Town,” also hosted on Roblox, which has been designed to be a virtual rendering of Vault (its concept store), as well as a space for visitors to “come together with friends.” Each of these efforts represents Gucci’s commitment to doing everything that it can to remain one step ahead of its competitors as technology and pop culture continue to evolve.  
+In 2021, the global fashion brand launched “Gucci Garden Archetypes,” a two-week virtual experience “that explores and celebrates the house’s inimitable creative vision,” Gucci said in a statement at the time. The brand has also launched “Gucci Town,” which has been designed to be a virtual rendering of Vault (its concept store), as well as a space for visitors to “come together with friends.” These virtual experiences represent Gucci’s commitment to doing everything that it can to remain ahead of other global brands in a highly competitive market.
 
 #### Adidas 
 
 <img align="left" src="images/adidas.png">
 
-Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. To date, Adidas has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
+Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. The company has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
 
 # pepperMint()
 ## A Real World Implementation of Non Fungible Tokens 
