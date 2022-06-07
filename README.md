@@ -18,7 +18,7 @@
   -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
   -   [Metaverse Adoption by Major Brands]
   -     [Coke](#coke)
-  
+
     
 ## Introduction
 ### Counterfeit Products
@@ -59,13 +59,13 @@ Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every
 ```
 #### Gaetano ####
 
-<img align="left" src="images/     .png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
+<img align="left" src="images/profile_01.png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
 
 <br/>
 
 #### Harry ####
 
-<img align="left" src="images/      .png"> 
+<img align="left" src="images/profile_01.png"> 
 
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
 
@@ -73,18 +73,19 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 
 #### Ebad ####
 
-<img align="left" src="images/     .png">
+<img align="left" src="images/profile_01.png">
+
+Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
+
+<br/>
+
+#### Charbel ####
+
+<img align="left" src="images/profile_01.png"> 
 
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
 
 
-#### Ebad ####
-
-<img align="left" src="images/     .png">
-
-Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.'
-
-<br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
