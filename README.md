@@ -53,6 +53,11 @@ Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every
 <br/>
 
 ## Meet the Team
+
+```
+> Who are the brains behind this beauty?
+```
+
 #### Gaetano ####
 
 <img align="left" src="images/Andrew-Watt.png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
@@ -128,27 +133,34 @@ The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 i
 
 <br/>
 
-
-
 ### Metaverse Adoption by Major Brands
 
 #### Coke 
+
+<img align="left" src="images/coca.png">
 
 In July 2021, and in observance of the Special Olympics, the soft drink behemoth teamed up with 3-D digital design studio Tafi for its inaugural NFT campaign. The campaign centered around “loot boxes,” which were basically virtual goodie bags that contained a variety of one-of-one digital assets — including a branded puffer jacket wearable NFT, a “sound visualizer” NFT (which “captures the experience of sharing a Coca-Cola”), and a “friendship card” NFT (a digital revival of the brand’s famous 1940s trading cards). Blending utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands that are looking to ingratiate themselves with the metaverse.
 
 #### Nike
 
+<img align="left" src="images/nike-logo.png">
+
 Nikeland was one of the first major efforts from a top-tier brand to blend sales, marketing, and gaming. It also provided a virtual showroom where visitors could flaunt their avatars’ new virtual Nike gear. As a whole, Nikeland has helped to prove the huge commercial value of the metaverse while simultaneously proving that a huge number of fans are genuinely keen on branded experiences in virtual environments.
 
 #### Gucci
+
+<img align="left" src="images/gucci.png">
 
 in 2021 — in celebration of its one hundredth anniversary — it launched the “Gucci Garden Archetypes,” a two-week virtual experience “that explores and celebrates the house’s inimitable creative vision,” Gucci said in a statement at the time. And just last week, the brand launched “Gucci Town,” also hosted on Roblox, which has been designed to be a virtual rendering of Vault (its concept store), as well as a space for visitors to “come together with friends.” Each of these efforts represents Gucci’s commitment to doing everything that it can to remain one step ahead of its competitors as technology and pop culture continue to evolve.  
 
 #### Adidas 
 
+<img align="left" src="images/adidas.png">
+
 Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. To date, Adidas has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
 
-### Introducing pepperMint(): A Real World Implementation of Non Fungible Tokens 
+# pepperMint()
+## A Real World Implementation of Non Fungible Tokens 
 
 pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. 
 
@@ -215,3 +227,7 @@ https://www.thedrum.com/news/2022/06/01/5-brands-winning-the-metaverse
 https://www.ice.gov/features/dangers-counterfeit-items
 
 https://www.breitling.com/us-es/news/details/breitling-becomes-the-first-luxury-watchmaker-to-offer-a-digital-passport-based-on-blockchain-for-all-of-its-new-watches-33479  
+
+https://www.supplychainbrain.com/blogs/1-think-tank/post/34693-tackling-product-counterfeiting-with-blockchain#:~:text=Blockchain%20helps%20tackle%20counterfeiting%20by,level%2C%20from%20production%20to%20delivery.
+
+https://en.wikipedia.org/wiki/Non-fungible_token
