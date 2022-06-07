@@ -6,8 +6,10 @@
 # pip install OpenCV 
 
 # Initial Imports
+
 import json
 import os
+from sympy import product
 from web3 import Web3
 import streamlit as st
 from PIL import Image
@@ -47,6 +49,7 @@ st.markdown('<link rel="stylesheet" href="./style/style.css" crossorigin="anonym
 
 # Product Authentication df
 df= pd.read_csv("./products_DB/product_info.csv")
+
 #row = pd.read_csv("./products_DB/row.csv",index_col=3)   
 # Straemlit Menu
 #Repo: https://github.com/victoryhb/streamlit-option-menu
@@ -143,35 +146,44 @@ if st.button("Authenticate My Product"):
    st.text(" Run Webcam!")
    product_hashcode = scan()
    st.text(product_hashcode)
-   row = df.loc[df['hashcode'] == product_hashcode] 
-   st.write(row)
-   #product_info = {}           
+   row = df.loc[df['hashcode'] == product_hashcode].set_index(["hashcode"]) 
+   
+   
 
-   #if st.button("Mint My NFT"): 
+   st.write(row)
+             
+
+   
 
    if not row.empty and row['minted'].bool():
 
         #converting row series to dict
         row["minted"] = "FALSE"
         df.loc[df["hashcode"] == product_hashcode, ["minted"]] = "FALSE"  
-              
+
         product_info = row.to_dict()    
 
-        #updating the minted status
+        
 
 
         tx_hash = contract.functions.mintCEGH(customer_account, json.dumps(product_info)).transact({'from': account, 'gas': 1000000})
+        #print transaction receipt
         receipt = w3.eth.waitForTransactionReceipt(tx_hash)
         st.write("Your NFT has been PepperMinted!")
         
-        
+        #updating the minted status
         
         df.to_csv("./products_DB/product_info.csv",index=False)
-        st.write(row)
-        st.write(product_info)   
+        
+        st.write(product_info)
+        
+        image = row.iloc[0,3]
+        
+        st.image(image)
+        
         st.markdown("### Transaction Receipt")
         st.write(receipt)   
-
+        
                    
    else:
         st.warning("Invalid or already used hashcode")
