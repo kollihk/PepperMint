@@ -1,7 +1,27 @@
-![counterfeitGoodsBanner](https://user-images.githubusercontent.com/95597283/172132655-b249ef37-5212-4662-949c-e3a6df3fcada.jpg)
+<a name="top"></a>
+<p align="center">
+  <img src="https://github.com/charbelnehme/capstone-project/blob/542e6b05c1df45c7365ffb9d4f30a113a293b355/images/counterfeitGoodsBanner.jpg" alt="Counterfeit Products - Capstone Project"/>
+</p>
 
-# Introduction
 
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Meet the Team](#meet-the-founders)
+    - [Gaetano](#gaetano)
+    - [Ebad](#ebad)
+    - [Harry](#harry)
+    - [Charbel](#charbel)
+  - [pepperMint()](#pepperMint())
+  -   [Sentiment Analysis](#sentiment-analysis)
+  -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
+  -   [Metaverse Adoption by Major Brands]
+  -     [Coke](#coke)
+  
+    
+## Introduction
+### Counterfeit Products
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner. 
 
 In 2018, Forbes reported that counterfeiting was the largest criminal enterprise in the world. Sales of counterfeit and pirated goods totals $1.7 trillion per year, which is more than drugs and human trafficking. It is expected to grow to $2.8 trillion and cost 5.4 million jobs by 2022. 
@@ -10,11 +30,7 @@ According to The Counterfeit Report, "China produces 80% of the world's counterf
 
 Companies spend millions or billions of dollars building brands, and building reputations and they're being completely destroyed by counterfeits. And when you take that across a universe of goods, Americans' confidence in their own products is nonexistent. Retailers, the malls, the retail stores are closing up, and we're becoming a duopoly of Walmart and Amazon.
 
-![fake-prada-michael-kors-chanel-bag-backpack-1339x1536](https://user-images.githubusercontent.com/95597283/172121976-b9ffcbda-8718-4f5d-aeb7-4b3f002fcd7a.jpg)
-
-Image: Fake designer bags in Asia
-
-https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
+<img align="right" src="images/fake-prada-michael-kors-chanel-bag-backpack-1339x1536.jpg">
 
 In addition to the economic growth of legitimate business, the production and trafficking of counterfeit products poses a significant health and safety threat to consumers. 
 
@@ -28,7 +44,44 @@ Some of the most dangerous counterfeit products involve automotive parts, electr
 * Counterfeit prescription drugs may not contain the active ingredient or could lead to accidental overdose.
 * Counterfeit cosmetics can cause severe skin reactions.
 
-## Introducing pepperMint () 
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
+## Meet the Team
+#### Gaetano ####
+
+<img align="left" src="images/Andrew-Watt.png"> Andrew spent over 16 years with a number of financial institutions in London – including Deutsche Bank, Standard Chartered, Nomura and Royal Bank of Scotland – spanning risk management, credit modelling and structuring. As COO, he is responsible for managing the lending process from the point of underwriting to execution and settlement, and post-settlement support. Andrew has a Bachelor of Commerce from the University of Melbourne and is a Chartered Accountant of Australia.
+
+<br/>
+
+#### Harry ####
+
+<img align="left" src="images/Piers-Moller.png"> 
+
+Piers is a co-founder and CTO of Moula. He has been working in information technology since 1997 with financial institutions including Royal Bank of Scotland, BNP Paribas , Barclays Capital. 
+
+Piers is credited for the development of Moula’s proprietary platform that simplifies the business lending process. He has a Bachelor of Science in Astronomy from University College London and a Masters in Science from Middlesex University London.
+
+<br/>
+
+#### Ebad ####
+
+<img align="left" src="images/Aris-Allegos.png">
+
+Aris co-founded Moula to provide Australian SMEs with a better way to access finance. Growing up around a family business, he experienced first-hand the challenges faced by SMEs.
+
+Aris is a co-fouder with over 15 years’ experience working in banking in London and Hong Kong, including roles with Credit Suisse and Nomura. He holds an MBA from London Business School, and a Bachelor of Commerce and Bachelor of Law from Monash University.
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
+## pepperMint () 
 
 Introducing pepperMint(), a decentralized solution to the world's $2.8 trillion dollar counterfeit problem. 
 
@@ -44,7 +97,7 @@ Everyone wants to get rich off NFTs, many are creating NFTs, some are trading NF
 
 ![nft_cloud](https://user-images.githubusercontent.com/95597283/172122743-3ba0a756-d407-48ce-a5f3-efa500a035ce.jpg)
 
-### What is an NFT? (for non-technical readers)
+### What is an Non Fungible Token (NFT)?
 
 ![nft](https://user-images.githubusercontent.com/95597283/172121312-3a35285f-1539-49c2-984f-e8e4d85d7193.jpg)
 
@@ -52,7 +105,7 @@ An NFT is a non-fungible token which means that each token is unique and not int
 
 An NFT is controlled only by the person holding the private keys to the address to which an NFT is assigned in the smart contract ledger and are freely transferable within and outside various metaverses and marketplaces.
 
-### Major Brand Adoption of the Metaverse
+### Metaverse Adoption by Major Brands
 
 #### Coke 
 
@@ -84,7 +137,43 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 
 ### Features and Benefits 
 
+* counterfeit and fraud prevention
+* minting service that connect enterprises to blockchain world creating a representation of their products in NFT form.
+* allows customers to directly mint the NFT of any items that they purchased.
+* our solidity smart contract adds a grade in the NFT description based on the order of minting       #TODO: Seek clarification from Gaetano?
+* built on ethereum, tradable on multiple exchanges. 
+* real world implementation
+* future developments can involve the Metaverse, wearables etc.
+* users can access their virtual storage and sell their items.                                        #TODO: Seek clarification from Gaetano??
 
+### Technology Stack
+
+* Solidity
+* Python 
+* Streamlit 
+* sha256 encoding 
+* Ganache
+* Metamask 
+
+### User Journey 
+
+#TODO: Discuss correct order with group tonight. 
+
+* Peppermint is built using cutting edge technologies, python and solidity are the backbone of our app, the UI is generated via Streamlit.
+Companies uses production information and timestamp to generate an unique hash via sha256 encoding, then the hash is converted to a easy readable QR code and printed into the box.
+Through our interface the user selects with ethereum address wants to use for the minting, then use the camera to read the QR code and if the code is unique and not used the Minting is processed .
+For time matter we used local machine services like ganache to simulate transaction and csv files as "off chain database".
+Validation will happen through chainlink oracles that read the status of off-chain data and sends back a signal to update them if the mining is processed.
+
+Other companies offer pre minted NFT that get transferred to customers address, in this case they will have to pay the transfer fee that is usually higher than a minting fee.
+Another problem that we solve is that the   NFT is actually awarded to person that request the mint, won't be a previous owner, if you are the first person to own that item everyone will know it.
+
+
+Peppermint is built using cutting edge technologies, python and solidity are the backbone of our app, the UI is generated via Streamlit.
+Companies uses production information and timestamp to generate an unique hash via sha256 encoding, then the hash is converted to a easy readable QR code and printed into the box.
+Through our interface the user selects with ethereum address wants to use for the minting, then use the camera to read the QR code and if the code is unique and not used the Minting is processed .
+For time matter we used local machine services like ganache to simulate transaction and csv files as "off chain database".
+Validation will happen through chainlink oracles that read the status of off-chain data and sends back a signal to update them if the mining is processed.
 
 
 ### Code Discussion 
