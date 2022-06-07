@@ -44,6 +44,8 @@ Some of the most dangerous counterfeit products involve automotive parts, electr
 * Counterfeit prescription drugs may not contain the active ingredient or could lead to accidental overdose.
 * Counterfeit cosmetics can cause severe skin reactions.
 
+Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every industry suffers heavily due to counterfeit products. According to an estimate from Gartner, nearly 60 percent of extra virgin olive oil is fake. 
+
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -77,9 +79,17 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 </div>
 <br/>
 
-## pepperMint () 
+## Fraud and Crypto
 
-Introducing pepperMint(), a decentralized solution to the world's $2.8 trillion dollar counterfeit problem. 
+Counterfeiters gain traction from supply chain disruptions and production shortages. The pandemic has had a negative effect on the global supply chain, providing counterfeiters with an opportunity to flood the market with fake products to meet the demand. The size of the counterfeit products market reflects the failure of authentic countermeasures, and businesses have realized this too. 
+
+Some businessnes ignore the creation of fake products under their branding, as the cost of fighting the counterfeiters can be prohibitive for many small to medium sized businessness. More often than not, litigation costs for SME's outweigh the losses and limit the businessnes ability to enforce their intellectual property rights. 
+
+### Blockchain as a Solution 
+
+
+
+discuss
 
 #TODO Elaborate. 
 
@@ -87,19 +97,30 @@ Everyone wants to get rich off NFTs, many are creating NFTs, some are trading NF
 
 ### Sentiment Analysis 
 
-![nft_news_df](https://user-images.githubusercontent.com/95597283/172122726-6528012a-a57a-4601-b028-d52aa9c98d7f.jpg)
 
-![nft_tokenized](https://user-images.githubusercontent.com/95597283/172122735-90281a72-29d3-4804-83b5-782b330d8d02.jpg)
+Discuss
 
-![nft_cloud](https://user-images.githubusercontent.com/95597283/172122743-3ba0a756-d407-48ce-a5f3-efa500a035ce.jpg)
+
 
 ### What is an Non Fungible Token (NFT)?
 
-![nft](https://user-images.githubusercontent.com/95597283/172121312-3a35285f-1539-49c2-984f-e8e4d85d7193.jpg)
+A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. Each token is unique and not interchangeable. The ownership of an NFT is recorded in the blockchain which allows the token to be sold and traded by the owner. 
 
-An NFT is a non-fungible token which means that each token is unique and not interchangeable. NFTs are minted (issued) on a decentralized distributed-ledger technology (DLT) network that is neither controlled nor dependent on one single centralized instance. 
+NFTs are minted (issued) on a decentralized distributed-ledger technology (DLT) network that is neither controlled nor dependent on one single centralized instance. 
+
+<img align="right" src="images/nft.jpg">
 
 An NFT is controlled only by the person holding the private keys to the address to which an NFT is assigned in the smart contract ledger and are freely transferable within and outside various metaverses and marketplaces.
+
+According to Wikipedia, the ownership of an NFT (as defined by the blockchain) has no inherent legal meaning, and does not necessarily grant copyright, intellectual property rights, or other legal rights over its associated digital file. An NFT does not restrict the sharing or copying of its associated digital file, and does not prevent the creation of NFTs that reference identical files.
+
+According to the writer, the Wikipedia entry is incorrect. 
+
+The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million.[2] NFTs have been used as speculative investments, and they have drawn increasing criticism for the energy cost and carbon footprint associated with validating blockchain transactions as well as their frequent use in art scams.[3] The NFT market has also been compared to an economic bubble or a Ponzi scheme.[4]
+
+<br/>
+
+
 
 ### Metaverse Adoption by Major Brands
 
@@ -142,6 +163,11 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 * future developments can involve the Metaverse, wearables etc.
 * users can access their virtual storage and sell their items.                                        #TODO: Seek clarification from Gaetano??
 
+* Peppermint is built using cutting edge technologies, python and solidity are the backbone of our app, the UI is generated via Streamlit. Companies uses production information and timestamp to generate an unique hash via sha256 encoding, then the hash is converted to a easy readable QR code and printed into the box. Through our interface the user selects with ethereum address wants to use for the minting, then use the camera to read the QR code and if the code is unique and not used the Minting is processed . For time matter we used local machine services like ganache to simulate transaction and csv files as "off chain database". Validation will happen through chainlink oracles that read the status of off-chain data and sends back a signal to update them if the mining is processed.
+Other companies offer pre minted NFT that get transferred to customers address, in this case they will have to pay the transfer fee that is usually higher than a minting fee. Another problem that we solve is that the NFT is actually awarded to person that request the mint, won't be a previous owner, if you are the first person to own that item everyone will know it.
+
+* Peppermint is built using cutting edge technologies, python and solidity are the backbone of our app, the UI is generated via Streamlit. Companies uses production information and timestamp to generate an unique hash via sha256 encoding, then the hash is converted to a easy readable QR code and printed into the box. Through our interface the user selects with ethereum address wants to use for the minting, then use the camera to read the QR code and if the code is unique and not used the Minting is processed . For time matter we used local machine services like ganache to simulate transaction and csv files as "off chain database". Validation will happen through chainlink oracles that read the status of off-chain data and sends back a signal to update them if the mining is processed.
+
 ### Technology Stack
 
 * Solidity
@@ -154,23 +180,6 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 ### User Journey 
 
 #TODO: Discuss correct order with group tonight. 
-
-* Peppermint is built using cutting edge technologies, python and solidity are the backbone of our app, the UI is generated via Streamlit.
-Companies uses production information and timestamp to generate an unique hash via sha256 encoding, then the hash is converted to a easy readable QR code and printed into the box.
-Through our interface the user selects with ethereum address wants to use for the minting, then use the camera to read the QR code and if the code is unique and not used the Minting is processed .
-For time matter we used local machine services like ganache to simulate transaction and csv files as "off chain database".
-Validation will happen through chainlink oracles that read the status of off-chain data and sends back a signal to update them if the mining is processed.
-
-Other companies offer pre minted NFT that get transferred to customers address, in this case they will have to pay the transfer fee that is usually higher than a minting fee.
-Another problem that we solve is that the   NFT is actually awarded to person that request the mint, won't be a previous owner, if you are the first person to own that item everyone will know it.
-
-
-Peppermint is built using cutting edge technologies, python and solidity are the backbone of our app, the UI is generated via Streamlit.
-Companies uses production information and timestamp to generate an unique hash via sha256 encoding, then the hash is converted to a easy readable QR code and printed into the box.
-Through our interface the user selects with ethereum address wants to use for the minting, then use the camera to read the QR code and if the code is unique and not used the Minting is processed .
-For time matter we used local machine services like ganache to simulate transaction and csv files as "off chain database".
-Validation will happen through chainlink oracles that read the status of off-chain data and sends back a signal to update them if the mining is processed.
-
 
 ### Code Discussion 
 
