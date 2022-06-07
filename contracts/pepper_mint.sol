@@ -4,7 +4,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 
 contract pepperMint is ERC721Full {
     constructor() public ERC721Full("PepperMint", "CEGH") {}
-    // address <--> Sneaker ID
+    // address <--> NFT ID
     mapping(uint256 => address) public nftOwners;
 
     function mintCEGH(address minter, string memory tokenURI)

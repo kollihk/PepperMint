@@ -46,7 +46,7 @@ st.markdown(hide_streamlit_features, unsafe_allow_html= True)
 st.markdown('<link rel="stylesheet" href="./style/style.css" crossorigin="anonymous">', unsafe_allow_html=True)
 
 # Product Authentication df
-df= pd.read_csv("./products_DB/product_info.csv", index_col=3)
+df= pd.read_csv("./products_DB/product_info.csv")
 #row = pd.read_csv("./products_DB/row.csv",index_col=3)   
 # Straemlit Menu
 #Repo: https://github.com/victoryhb/streamlit-option-menu
@@ -145,31 +145,43 @@ if st.button("Authenticate My Product"):
    st.text(product_hashcode)
    row = df.loc[df['hashcode'] == product_hashcode] 
    st.write(row)
-                
+   #product_info = {}           
 
    #if st.button("Mint My NFT"): 
 
    if not row.empty and row['minted'].bool():
-                        
-        
-        contract.functions.mintCEGH(customer_account, json.dumps(product_hashcode)).transact({'from': account, 'gas': 1000000})
+
+        #converting row series to dict
+        row["minted"] = "FALSE"
+        df.loc[df["hashcode"] == product_hashcode, ["minted"]] = "FALSE"  
+              
+        product_info = row.to_dict()    
+
+        #updating the minted status
+
+
+        tx_hash = contract.functions.mintCEGH(customer_account, json.dumps(product_info)).transact({'from': account, 'gas': 1000000})
+        receipt = w3.eth.waitForTransactionReceipt(tx_hash)
         st.write("Your NFT has been PepperMinted!")
         
-        row["minted"] = "FALSE"
-        df.loc[df["hashcode"] == product_hashcode, ["minted"]] = "FALSE"
+        
         
         df.to_csv("./products_DB/product_info.csv",index=False)
         st.write(row)
-                
+        st.write(product_info)   
+        st.markdown("### Transaction Receipt")
+        st.write(receipt)   
 
                    
    else:
         st.warning("Invalid or already used hashcode")
-        st.write(row)
+        #st.write(row)
 
 
 
-
+# if st.button("Show NFT details"):
+#     totalsupply= contract.functions.totalSupply
+#     st.write(dict(totalsupply))
 
 
 
