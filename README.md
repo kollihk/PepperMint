@@ -57,16 +57,15 @@ Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every
 ```
 > Who are the brains behind this beauty?
 ```
-
 #### Gaetano ####
 
-<img align="left" src="images/Andrew-Watt.png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
+<img align="left" src="images/     .png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
 
 <br/>
 
 #### Harry ####
 
-<img align="left" src="images/Piers-Moller.png"> 
+<img align="left" src="images/      .png"> 
 
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
 
@@ -74,9 +73,16 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 
 #### Ebad ####
 
-<img align="left" src="images/Aris-Allegos.png">
+<img align="left" src="images/     .png">
 
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
+
+
+#### Ebad ####
+
+<img align="left" src="images/     .png">
+
+Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.'
 
 <br/>
 <div align="right">
@@ -127,7 +133,15 @@ An NFT is controlled only by the person holding the private keys to the address 
 
 According to Wikipedia, the ownership of an NFT (as defined by the blockchain) has no inherent legal meaning, and does not necessarily grant copyright, intellectual property rights, or other legal rights over its associated digital file. An NFT does not restrict the sharing or copying of its associated digital file, and does not prevent the creation of NFTs that reference identical files.
 
-According to the writer, the Wikipedia entry is incorrect. 
+The writer is of the opinion that the Wikipedia entry may be inaccurate. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], Designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
+
+Hermès is relying on its existing trademark rights to the BIRKIN word trademark and the BIRKIN bag’s trade dress as the basis for its claims of trademark infringement, false designation of origin, trademark dilution, cybersquatting, and injury to business reputation and dilution. 
+
+The Hermes case highlights key points for consideration in connection with trademark rights and the use of such trademarks as NFTs or within the metaverse, some of which include: 
+
+Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
+
+Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
 
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million.[2] NFTs have been used as speculative investments, and they have drawn increasing criticism for the energy cost and carbon footprint associated with validating blockchain transactions as well as their frequent use in art scams.[3] The NFT market has also been compared to an economic bubble or a Ponzi scheme.[4]
 
