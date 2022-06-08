@@ -20,8 +20,8 @@
   -     [Coke](#coke)
 
     
-## Introduction
-### Counterfeit Products
+## Manufacturing and Distribution of Counterfeit Goods
+
 Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off it's goods as made by the brand owner. 
 
 In 2018, Forbes reported that counterfeiting was the largest criminal enterprise in the world. Sales of counterfeit and pirated goods totals $1.7 trillion per year, which is more than drugs and human trafficking. It is expected to grow to $2.8 trillion and cost 5.4 million jobs by 2022. 
@@ -99,7 +99,7 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 
 <br/>
 
-#### Charbel ####
+#### Charbel Nehme ####
 
 <img align="left" src="images/profile_01.png"> 
 
@@ -251,6 +251,7 @@ MetaMask is a software cryptocurrency wallet used to interact with the Ethereum 
 
 ### References 
 
+https://www.ice.gov/features/dangers-counterfeit-items
 
 https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
 
