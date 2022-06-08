@@ -132,7 +132,7 @@ The Hermes case highlights key points for consideration in connection with trade
 * Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
 * Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
 
-The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million.[2] NFTs have been used as speculative investments, and they have drawn increasing criticism for the energy cost and carbon footprint associated with validating blockchain transactions as well as their frequent use in art scams.[3] The NFT market has also been compared to an economic bubble or a Ponzi scheme.[4]
+The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million. 
 
 <br/>
 
@@ -197,47 +197,22 @@ Solidity is an object oriented programming language for implementing smart contr
 Version / inheritances? Discuss
 
 ```ruby
-pragma solidity ^0.5.5;
+pragma solidity ^0.5.0;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC721/ERC721Full.sol";
+import "./ERC721.sol";
+import "./ERC721Enumerable.sol";
+import "./ERC721Metadata.sol";
 
-contract pepperMint is ERC721Full {
-    constructor() public ERC721Full("PepperMint", "CEGH") {}
-    // address <--> NFT ID
-    mapping(uint256 => address) public nftOwners;
-
-    function mintCEGH(address minter, string memory tokenURI)
-        public
-        returns (uint256)
-    {
-        uint256 newNftId = totalSupply();
-        _mint(minter, newNftId);
-        _setTokenURI(newNftId, tokenURI);
-        nftOwners[newNftId] = minter;
-        return newNftId;
-    }
-
-    function CEGHOwner(address _owner) external view returns(uint256[] memory tokens) {
-        uint256 tokenCount = balanceOf(_owner);
-
-        if (tokenCount == 0) {
-            // Return an empty array
-            return new uint256[](0);
-        } else {
-            uint256[] memory result = new uint256[](tokenCount);
-            uint256 totalNft = totalSupply();
-            uint256 resultIndex = 0;
-
-            uint256 NftId;
-
-            for (NftId = 1; NftId <= totalNft; NftId++) {
-                if (nftOwners[NftId] == _owner) {
-                    result[resultIndex] = NftId;
-                    resultIndex++;
-                }
-            }
-            return result;
-        }
+/**
+ * @title Full ERC721 Token
+ * @dev This implementation includes all the required and some optional functionality of the ERC721 standard
+ * Moreover, it includes approve all functionality using operator terminology.
+ *
+ * See https://eips.ethereum.org/EIPS/eip-721
+ */
+contract ERC721Full is ERC721, ERC721Enumerable, ERC721Metadata {
+    constructor (string memory name, string memory symbol) public ERC721Metadata(name, symbol) {
+        // solhint-disable-previous-line no-empty-blocks
     }
 }
 ```
