@@ -22,7 +22,8 @@
     
 ## Manufacturing and Distribution of Counterfeit Goods
 
-Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off it's goods as made by the brand owner. 
+
+> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off it's goods as made by the brand owner. 
 
 In 2018, Forbes reported that counterfeiting was the largest criminal enterprise in the world. Sales of counterfeit and pirated goods totals $1.7 trillion per year, which is more than drugs and human trafficking. It is expected to grow to $2.8 trillion and cost 5.4 million jobs by 2022. 
 
@@ -54,12 +55,12 @@ Some businessnes ignore the creation of fake products under their branding, as t
 
 ## Blockchain as a Solution 
 
-Blockchain can address the worlds counterfeiting problem by identifying a products proof of origin which can assist quality checks at every level, between the manufacturers production to consumer delivery.
+> Blockchain can address the worlds counterfeiting problem by identifying a products proof of origin which can assist quality checks at every level, between the manufacturers production to consumer delivery.
 
+<img align="right" src="images/QR.png">
+Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include:
+</br>
 
-
-<img align="left" src="images/QR.png">
-Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include: 
 * RFID tags: Radio frequency identification tags use radio waves for communication. A reader is required to receive signals from an RFID tag.
 * QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
 * NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
@@ -113,7 +114,7 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 
 ## What is an Non Fungible Token (NFT)?
 
-A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. Each token is unique and not interchangeable. The ownership of an NFT is recorded in the blockchain which allows the token to be sold and traded by the owner. 
+> A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. Each token is unique and not interchangeable. The ownership of an NFT is recorded in the blockchain which allows the token to be sold and traded by the owner. 
 
 NFTs are minted (issued) on a decentralized distributed-ledger technology (DLT) network that is neither controlled nor dependent on one single centralized instance. 
 
@@ -184,8 +185,6 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 
 Solidity is an object oriented programming language for implementing smart contracts on the Ethereum blockchain. 
 
-Version / inheritances? Discuss
-
 ```ruby
 pragma solidity ^0.5.0;
 
@@ -211,19 +210,20 @@ contract ERC721Full is ERC721, ERC721Enumerable, ERC721Metadata {
 
 Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
 
-Discuss code. 
+
 
 #### Streamlit 
 
 Streamlit is an open source app framework in Python language and was used to create the front end for interaction with our solidity smart contract(s). 
 
-Insert screen shot. 
+
 
 ### Ganache
 
 Personal Ethereum blockchain used to run tests, execute commands and inspect state while controlling how the chain operates. 
 
-Insert screen shot 
+
+
 
 ### Metamask 
 
@@ -231,23 +231,22 @@ MetaMask is a software cryptocurrency wallet used to interact with the Ethereum 
 
 ### User Journey 
 
-#TODO: Discuss correct order with group tonight. 
 
-### Code Discussion 
 
-#TODO: Discuss with group.
 
-### User Demonstration 
-
-#TODO: Video demonstration? Discuss with group. 
 
 ### Unancticipated Problems and Insights 
 
-#TODO: Discuss with group.
+
+
+
 
 ### Additional Questions for Exploration 
 
-#TODO: Discuss with group. 
+
+
+
+
 
 ### References 
 
