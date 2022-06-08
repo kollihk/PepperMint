@@ -22,7 +22,7 @@
     
 ## Introduction
 ### Counterfeit Products
-Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner. 
+Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off it's goods as made by the brand owner. 
 
 In 2018, Forbes reported that counterfeiting was the largest criminal enterprise in the world. Sales of counterfeit and pirated goods totals $1.7 trillion per year, which is more than drugs and human trafficking. It is expected to grow to $2.8 trillion and cost 5.4 million jobs by 2022. 
 
@@ -46,6 +46,26 @@ Some of the most dangerous counterfeit products involve automotive parts, electr
 
 Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every industry suffers heavily due to counterfeit products. According to an estimate from Gartner, nearly 60 percent of extra virgin olive oil is fake. 
 
+## Fraud and Crypto
+
+Counterfeiters gain traction from supply chain disruptions and production shortages. The pandemic has had a negative effect on the global supply chain, providing counterfeiters with an opportunity to flood the market with fake products to meet the demand. The size of the counterfeit products market reflects the failure of authentic countermeasures, and businesses have realized this too. 
+
+Some businessnes ignore the creation of fake products under their branding, as the cost of fighting the counterfeiters can be prohibitive for many small to medium sized businessness. More often than not, litigation costs for SME's outweigh the losses and limit the businessnes ability to enforce their intellectual property rights. 
+
+## Blockchain as a Solution 
+
+Blockchain can address the worlds counterfeiting problem by identifying a products proof of origin which can assist quality checks at every level, between the manufacturers production to consumer delivery.
+
+
+
+<img align="left" src="images/QR.png">
+Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include: 
+* RFID tags: Radio frequency identification tags use radio waves for communication. A reader is required to receive signals from an RFID tag.
+* QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
+* NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
+
+This repository demonstrates the implementation of QR codes to reduce (short term) and eliminate (long term) the overall impact of counterfeit production.
+
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -57,13 +77,13 @@ Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every
 ```
 > Who are the brains behind this beauty?
 ```
-#### Gaetano ####
+#### Gaetano Buongiorno ####
 
 <img align="left" src="images/profile_01.png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
 
 <br/>
 
-#### Harry ####
+#### Harry K Kolli ####
 
 <img align="left" src="images/profile_01.png"> 
 
@@ -71,7 +91,7 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 
 <br/>
 
-#### Ebad ####
+#### Ebad Salehi ####
 
 <img align="left" src="images/profile_01.png">
 
@@ -91,38 +111,7 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 </div>
 <br/>
 
-## Fraud and Crypto
-
-Counterfeiters gain traction from supply chain disruptions and production shortages. The pandemic has had a negative effect on the global supply chain, providing counterfeiters with an opportunity to flood the market with fake products to meet the demand. The size of the counterfeit products market reflects the failure of authentic countermeasures, and businesses have realized this too. 
-
-Some businessnes ignore the creation of fake products under their branding, as the cost of fighting the counterfeiters can be prohibitive for many small to medium sized businessness. More often than not, litigation costs for SME's outweigh the losses and limit the businessnes ability to enforce their intellectual property rights. 
-
-### Blockchain as a Solution 
-
-Blockchain can address the worlds counterfeiting problem by identifying a products proof of origin which can assist quality checks at every level, between the manufacturers production to consumer delivery.
-
-Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include: 
-* RFID tags: Radio frequency identification tags use radio waves for communication. A reader is required to receive signals from an RFID tag.
-* QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
-* NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
-
-This project demonstrates the implementation of QR codes within our proposed solution.
-
-
-discuss
-
-#TODO Elaborate. 
-
-Everyone wants to get rich off NFTs, many are creating NFTs, some are trading NFTs, but a very small percentage comprehend what an NFT really is. 
-
-### Sentiment Analysis 
-
-
-Discuss
-
-
-
-### What is an Non Fungible Token (NFT)?
+## What is an Non Fungible Token (NFT)?
 
 A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. Each token is unique and not interchangeable. The ownership of an NFT is recorded in the blockchain which allows the token to be sold and traded by the owner. 
 
@@ -140,15 +129,14 @@ Hermès is relying on its existing trademark rights to the BIRKIN word trademark
 
 The Hermes case highlights key points for consideration in connection with trademark rights and the use of such trademarks as NFTs or within the metaverse, some of which include: 
 
-Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
-
-Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
+* Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
+* Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
 
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million.[2] NFTs have been used as speculative investments, and they have drawn increasing criticism for the energy cost and carbon footprint associated with validating blockchain transactions as well as their frequent use in art scams.[3] The NFT market has also been compared to an economic bubble or a Ponzi scheme.[4]
 
 <br/>
 
-### Metaverse Adoption by Major Brands
+### Adoption of the Metaverse by Major Brands
 
 #### Coke 
 
@@ -174,14 +162,11 @@ In 2021, the global fashion brand launched “Gucci Garden Archetypes,” a two-
 
 Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. The company has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
 
-# pepperMint()
-## A Real World Implementation of Non Fungible Tokens 
+## pepperMint()
 
-pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. 
+pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. pepperMint() is a representation for an entirely tokenised economy, where smart contracts trade assets and commodities, and consumers can see the history of goods they purchase via immutable blockchain records. 
 
 NFTs can be used to verify the authenticity of physical goods by storing all relevant information relating to a product in an NFT on a decentralized network.  The successful use of the technology is based on how the product to be protected can be connected to the DLT. pepperMint() achieves product protection with the use of QR codes in the NFT minting process. 
-
-#### Case Study: Breitling Designer Watches
 
 Since 13 October 2020, all new Breitling watches are delivered with a blockchain based digital passport to guarantee the products authenticity. Consumers are afforded the benefit of blockchain technology, digital security and proof of ownership. 
 
@@ -205,12 +190,79 @@ Other companies offer pre minted NFT that get transferred to customers address, 
 
 ### Technology Stack
 
-* Solidity
-* Python 
-* Streamlit 
-* sha256 encoding 
-* Ganache
-* Metamask 
+#### Solidity
+
+Solidity is an object oriented programming language for implementing smart contracts on the Ethereum blockchain. 
+
+Version / inheritances? Discuss
+
+```ruby
+pragma solidity ^0.5.5;
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC721/ERC721Full.sol";
+
+contract pepperMint is ERC721Full {
+    constructor() public ERC721Full("PepperMint", "CEGH") {}
+    // address <--> NFT ID
+    mapping(uint256 => address) public nftOwners;
+
+    function mintCEGH(address minter, string memory tokenURI)
+        public
+        returns (uint256)
+    {
+        uint256 newNftId = totalSupply();
+        _mint(minter, newNftId);
+        _setTokenURI(newNftId, tokenURI);
+        nftOwners[newNftId] = minter;
+        return newNftId;
+    }
+
+    function CEGHOwner(address _owner) external view returns(uint256[] memory tokens) {
+        uint256 tokenCount = balanceOf(_owner);
+
+        if (tokenCount == 0) {
+            // Return an empty array
+            return new uint256[](0);
+        } else {
+            uint256[] memory result = new uint256[](tokenCount);
+            uint256 totalNft = totalSupply();
+            uint256 resultIndex = 0;
+
+            uint256 NftId;
+
+            for (NftId = 1; NftId <= totalNft; NftId++) {
+                if (nftOwners[NftId] == _owner) {
+                    result[resultIndex] = NftId;
+                    resultIndex++;
+                }
+            }
+            return result;
+        }
+    }
+}
+```
+
+#### Python 
+
+Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+
+Discuss code. 
+
+#### Streamlit 
+
+Streamlit is an open source app framework in Python language and was used to create the front end for interaction with our solidity smart contract(s). 
+
+Insert screen shot. 
+
+### Ganache
+
+Personal Ethereum blockchain used to run tests, execute commands and inspect state while controlling how the chain operates. 
+
+Insert screen shot 
+
+### Metamask 
+
+MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. 
 
 ### User Journey 
 
