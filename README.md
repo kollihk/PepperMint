@@ -36,7 +36,6 @@ Companies spend millions or billions of dollars building brands, and building re
 In addition to the economic growth of legitimate business, the production and trafficking of counterfeit products poses a significant health and safety threat to consumers. 
 
 “Counterfeit products not only attack the name and value of a known business, but, in many cases, can cause harmful, and sometimes fatal, consequences for the unsuspecting buyer,” said Mark Zito, Deputy Special Agent in Charge for HSI Los Angeles.
-Source: https://www.ice.gov/features/dangers-counterfeit-items 
 
 Some of the most dangerous counterfeit products involve automotive parts, electronics, safety equipment, cosmetics and prescription drugs due to the threats they represent to public health and safety.  Examples include: 
 * Counterfeit airbags and their components can cause severe malfunctions ranging from non-deployment, under inflation, over inflation to explosion of metal shrapnel during deployment in a crash.
