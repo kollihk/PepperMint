@@ -10,14 +10,16 @@
   - [Manufacturing and Distribution of Counterfeit Goods](#manufacturing-and-distribution-of-counterfeit-goods)
   - [Fraud and Crypto](#fraud-and-crypto)
   - [Blockchain as a Solution)(#blockchain-as-a-solution)
-  - [Meet the Team](#meet-the-founders)
+  - [Meet the Team](#meet-the-team)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
+  - [Market Outlook)(#market-outlook)(#market-outlook)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
-  - [pepperMint()](#pepperMint())
-  -   [Sentiment Analysis](#sentiment-analysis)
-  -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
-  -   [Metaverse Adoption by Major Brands]
-  -     [Coke](#coke)
+  - [Introducting pepperMint()](#introducing-pepperMint())
+  - [Technology Stack](#technology-stack)
+  - [User Experience](#user-experience)
+  - [Unanticipated-problems-and-insights](#unanticipated-problems-and-insights)
+  - [Future Developments for Consideration](#future-developments-for-consideration)
+  - [References](#references)
     
 ## Manufacturing and Distribution of Counterfeit Goods
 
