@@ -50,7 +50,7 @@ st.markdown('<link rel="stylesheet" href="./style/style.css" crossorigin="anonym
 # Product Authentication df
 df= pd.read_csv("./products_DB/product_info.csv")
 
-#row = pd.read_csv("./products_DB/row.csv",index_col=3)   
+   
 # Straemlit Menu
 #Repo: https://github.com/victoryhb/streamlit-option-menu
 def streamlit_menu():        
@@ -175,14 +175,15 @@ if st.button("Authenticate My Product"):
         
         df.to_csv("./products_DB/product_info.csv",index=False)
         
-        st.write(product_info)
+        st.write(dict(product_info))
         
         image = row.iloc[0,3]
         
         st.image(image)
         
         st.markdown("### Transaction Receipt")
-        st.write(receipt)   
+        st.write(dict(receipt))
+          
         
                    
    else:
