@@ -90,7 +90,7 @@ An NFT is controlled only by the person holding the private keys to the address 
 
 According to Wikipedia, the ownership of an NFT (as defined by the blockchain) has no inherent legal meaning, and does not necessarily grant copyright, intellectual property rights, or other legal rights over its associated digital file. An NFT does not restrict the sharing or copying of its associated digital file, and does not prevent the creation of NFTs that reference identical files.
 
-The Wikipedia entry is considered inaccurate. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], Designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
+The Wikipedia entry is viewed as inaccurate by the writer. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
 </p>
 <img align="left" src="images/birkin.jpeg">
 </br>
