@@ -11,10 +11,6 @@
   - [Fraud and Crypto](#fraud-and-crypto)
   - [Blockchain as a Solution)(#blockchain-as-a-solution)
   - [Meet the Team](#meet-the-founders)
-    - [Gaetano Boungiorno]
-    - [Ebad](#ebad)
-    - [Hari](#hari)
-    - [Charbel](#charbel)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
   - [pepperMint()](#pepperMint())
@@ -48,7 +44,7 @@ Some of the most dangerous counterfeit products involve automotive parts, electr
 * Counterfeit prescription drugs may not contain the active ingredient or could lead to accidental overdose.
 * Counterfeit cosmetics can cause severe skin reactions.
 
-Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every industry suffers heavily due to counterfeit products. According to an estimate from Gartner, nearly 60 percent of extra virgin olive oil is fake. 
+Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every industry suffers heavily due to counterfeit products. 
 
 ## Fraud and Crypto
 
@@ -78,9 +74,6 @@ This repository demonstrates the implementation of QR codes to reduce the annual
 
 ## Meet the Team
 
-```
-> Who are the brains behind this beauty?
-```
 #### Gaetano Buongiorno ####
 
 <img align="left" src="images/profile_01.png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
@@ -129,12 +122,17 @@ According to Wikipedia, the ownership of an NFT (as defined by the blockchain) h
 
 The writer is of the opinion that the Wikipedia entry may be inaccurate. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], Designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
 
+<img align="left" src="images/birn.jpeg">
+Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include:
+</br>
 Hermès is relying on its existing trademark rights to the BIRKIN word trademark and the BIRKIN bag’s trade dress as the basis for its claims of trademark infringement, false designation of origin, trademark dilution, cybersquatting, and injury to business reputation and dilution. 
 
 The Hermes case highlights key points for consideration in connection with trademark rights and the use of such trademarks as NFTs or within the metaverse, some of which include: 
 
 * Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
 * Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
+
+### NFT Market Outlook
 
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million. 
 
