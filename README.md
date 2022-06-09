@@ -9,14 +9,14 @@
 - [Table of Contents](#table-of-contents)
   - [Manufacturing and Distribution of Counterfeit Goods](#manufacturing-and-distribution-of-counterfeit-goods)
   - [Fraud and Crypto](#fraud-and-crypto)
-  - [Blockchain as a Solution)(#blockchain-as-a-solution)
+  - [Blockchain as a Solution](#blockchain-as-a-solution)
   - [Meet the Team](#meet-the-founders)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
   - [pepperMint()](#pepperMint())
   -   [Sentiment Analysis](#sentiment-analysis)
   -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
-  -   [Metaverse Adoption by Major Brands]
+  -   ###Metaverse Adoption by Major Brands
   -     [Coke](#coke)
 
     
