@@ -10,7 +10,6 @@
   - [Manufacturing and Distribution of Counterfeit Goods](#manufacturing-and-distribution-of-counterfeit-goods)
   - [Fraud and Crypto](#fraud-and-crypto)
   - [Blockchain as a Solution](#blockchain-as-a-solution)
-  - [Meet the Team](#meet-the-team)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
   - [Market Outlook](#market-outlook)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
@@ -74,41 +73,6 @@ Smart tags are integral to a blockchain solution to eliminate the prevalence of 
 This repository demonstrates the implementation of QR codes to reduce the annual cost of counterfeit production to the global economy, in addition to the health and safety threat of fraudulent products to consumers.
 
 <br/>
-<div align="right">
-    <b><a href="#top">↥ back to top</a></b>
-</div>
-<br/>
-
-## Meet the Team
-
-#### Gaetano Buongiorno ####
-
-<img align="left" src="images/profile_01.png"> Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
-
-<br/>
-
-#### Hari K Kolli ####
-
-<img align="left" src="images/profile_01.png"> 
-
-Senior Software Engineer and Fintech Professional, with expertise in Python, Solidty, C, C++, Java and Linux.
-
-<br/>
-
-#### Ebad Salehi ####
-
-<img align="left" src="images/profile_01.png">
-
-Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
-
-<br/>
-
-#### Charbel Nehme ####
-
-<img align="left" src="images/profile_01.png"> 
-
-Registered migration agent, company director, fintech professional and aspiring blockchain developer.
-
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
