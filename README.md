@@ -166,22 +166,24 @@ The lookout for 2022 is positive. Cointelegraph reports that more than 80% of co
 
 <img align="left" src="images/coca.png">
 In July 2021, Coke teamed up Tafi (3D digital design studio) for its inaugural NFT campaign. The NFT campaign centered around “loot boxes,” that were virtual goodie bags containing a variety of digital assets, including a branded puffer jacket wearable NFT, a sound visualizer NFT, and a friendship card NFT. Combining utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands entering the metaverse.
-<br/>
 
 <br/>
+
 <img align="left" src="images/nike-logo.png">
 Nikeland was one of the first major efforts from a top-tier brand to blend sales, marketing, and gaming. It also provided a virtual showroom where visitors could flaunt their avatars’ new virtual Nike gear. Nikeland has helped to prove the huge commercial value of the metaverse while simultaneously proving that a huge number of fans are genuinely keen on branded experiences in virtual environments.
-<br/>
 
+<br/>
 
 <img align="left" src="images/gucci.png">
 In 2021, the global fashion brand launched “Gucci Garden Archetypes,” a two-week virtual experience “that explores and celebrates the house’s inimitable creative vision,” Gucci said in a statement at the time. The brand has also launched “Gucci Town,” which has been designed to be a virtual rendering of its concept store, as well as a space for visitors to socialise. These virtual experiences represent Gucci’s commitment to doing everything that it can to remain ahead of other global brands in a highly competitive market.
-</br>
+
+<br/>
 
 <img align="left" src="images/adidas.png">
 Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. The company has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
 
 <br/>
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
@@ -190,15 +192,11 @@ Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop c
 ## Public Sentiment 
 <p>
 <img align="left" src="images/land_rush.jpg">
-<p/>
-
-<p>
-<img align="left" src="images/nft_sales.png">
-<p/>
-</br>
+</p>
+<br/>
 
 # pepperMint()
-
+<p>
 pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. Our blockchain solution is a representation for an entirely tokenised economy, where smart contracts trade assets and commodities, and consumers can see the history of goods they purchase via immutable blockchain records. 
 
 Our smart contracts reduce and eliminate counterfeit production, and is the conduit for intellectual property right validation and enforcement for small sized business' and multinational corporations. 
@@ -231,7 +229,7 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 
 ### Technology Stack
 
-The current version of peppermint() relies on the following to achieve key functionality: 
+The current version of peppermint() relies on the following to achieve key functionalities:
 * Solidity: an object oriented programing langugage for implementing smart contracts on the Ethereum blockchain. 
 
 * Python: a high level, interpreted, general-purpose programming language. 
