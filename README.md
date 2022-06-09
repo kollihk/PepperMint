@@ -9,19 +9,17 @@
 - [Table of Contents](#table-of-contents)
   - [Manufacturing and Distribution of Counterfeit Goods](#manufacturing-and-distribution-of-counterfeit-goods)
   - [Fraud and Crypto](#fraud-and-crypto)
-  - [Blockchain as a Solution](#blockchain-as-a-solution)
+  - [Blockchain as a Solution)(#blockchain-as-a-solution)
   - [Meet the Team](#meet-the-founders)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
   - [pepperMint()](#pepperMint())
   -   [Sentiment Analysis](#sentiment-analysis)
   -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
-  -   [Metaverse Adoption by Major Brands](#Adoption of the Metaverse by Major Brands)
-  -   [Coke](#coke)
-
+  -   [Metaverse Adoption by Major Brands]
+  -     [Coke](#coke)
     
 ## Manufacturing and Distribution of Counterfeit Goods
-
 
 > Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off it's goods as made by the brand owner. 
 
@@ -66,9 +64,9 @@ Smart tags are integral to a blockchain solution to eliminate the prevalence of 
 </br>
 
 * RFID tags: Radio frequency identification tags use radio waves for communication. A reader is required to receive signals from an RFID tag.
-*
+
 * QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
-*
+
 * NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
 
 This repository demonstrates the implementation of QR codes to reduce the annual cost of counterfeit production to the global economy, in addition to the health and safety threat of fraudulent products to consumers.
@@ -115,6 +113,13 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 </div>
 <br/>
 
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
+
 ## What is an Non Fungible Token (NFT)?
 
 > A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. Each token is unique and not interchangeable. The ownership of an NFT is recorded in the blockchain which allows the token to be sold and traded by the owner. 
@@ -127,23 +132,39 @@ An NFT is controlled only by the person holding the private keys to the address 
 
 According to Wikipedia, the ownership of an NFT (as defined by the blockchain) has no inherent legal meaning, and does not necessarily grant copyright, intellectual property rights, or other legal rights over its associated digital file. An NFT does not restrict the sharing or copying of its associated digital file, and does not prevent the creation of NFTs that reference identical files.
 
-The writer is of the opinion that the Wikipedia entry may be inaccurate. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], Designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
-<br/>
+The Wikipedia entry is considered inaccurate. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], Designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
+</p>
 <img align="left" src="images/birkin.jpeg">
 </br>
-Hermès is relying on its existing trademark rights to the BIRKIN word trademark and the BIRKIN bag’s trade dress as the basis for its claims of trademark infringement, false designation of origin, trademark dilution, cybersquatting, and injury to business reputation and dilution. 
-
-The Hermes case highlights key points for consideration in connection with trademark rights and the use of such trademarks as NFTs or within the metaverse, some of which include: 
+Hermès is relying on its existing trademark rights to the BIRKIN word trademark and the BIRKIN bag’s trade dress as the basis for its claims of trademark infringement, false designation of origin, trademark dilution, cybersquatting, and injury to business reputation and dilution. The Hermes case highlights key points for consideration in connection with trademark rights and the use of such trademarks as NFTs or within the metaverse, some of which include: 
 
 * Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
 
-* Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
+* Trademarks are protected for those classes of goods and services for which they have been registered. Retailers operating within the metaverse must consider whether the virtual copy of their product could be covered by the same class, or if this would require additional registration in other goods and services classes. 
+</p>
 
 <br/>
-### Market Outlook
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
+
+### Market Outlook
+<p>
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million. 
-</br>
+![nft_sales](https://user-images.githubusercontent.com/95597283/172787523-61fc4ea8-3a75-4261-9bf0-248560f052ab.png)
+<p/>
+
+The lookout for 2022 is positive. Cointelegraph reports that more than 80% of consumers believe that a brand’s digital presence is as important as its physical presence, helping drive demand for branded NFT assets.
+<img align="left" src="images/nft_predict.png">
+<p/>
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 ### Adoption of the Metaverse by Major Brands
 
@@ -177,17 +198,35 @@ In 2021, the global fashion brand launched “Gucci Garden Archetypes,” a two-
 
 Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. The company has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
 
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
+## Public Sentiment 
+<p>
+<img align="left" src="images/land_rush.jpg">
+<p/>
+
+<p>
+<img align="left" src="images/nft_sales.png">
+<p/>
+</br>
+
 # pepperMint()
 
 pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. Our blockchain solution is a representation for an entirely tokenised economy, where smart contracts trade assets and commodities, and consumers can see the history of goods they purchase via immutable blockchain records. 
 
-NFTs can be used to verify the authenticity of physical goods by storing all relevant information relating to a product in an NFT on a decentralized network.  The successful use of the technology is based on how the product to be protected can be connected to the DLT. pepperMint() achieves product protection with the use of QR codes in the NFT minting process. 
+Our smart contracts reduce and eliminate counterfeit production, and is the conduit for intellectual property right validation and enforcement for small sized business' and multinational corporations. 
 
 ### Features & Benefits 
 
 * Counterfeit and fraud prevention.
 
 * Consumers may verify the authenticity of their products and the legitimacy of their ownership. 
+
+* NFTs can be used to verify the authenticity of physical goods by storing all relevant information relating to a product in an NFT on a decentralized network.  The successful use of the technology is based on how the product to be protected can be connected to the DLT. pepperMint() achieves product protection with the use of QR codes in the NFT minting process. 
 
 * QR code 'smart tag' implementation.
 
@@ -222,9 +261,22 @@ The current version of peppermint() relies on the following to achieve key funct
 
 * QRcode: Python based QR code generator.
 
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
+
 ### User Experience
 
 
+
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 
 
@@ -246,11 +298,36 @@ Screenshot/code
 
 The cost of the resulting gas transactions will increase by a multiple equivalent to the number of instances generated in the peppermint() smart contract. An upgradable contract will help reduce transaction costs by 90 percent. 
 
-### Additional Questions for Exploration 
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 
+### Future Developments for Consideration
 
+* RFID and NFC 'smart tag' integration. 
 
+* Off chain validation using Chainlink Oracles. 
+
+* Metaverse implementation.
+
+* Customer service functionality.
+
+* Social media integration. 
+
+* Manufacturer user interface. 
+
+* Gated NFT website with access restricted to VIP token holders. 
+
+* NFT gallery.
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
 
 
 ### References 
@@ -268,3 +345,11 @@ https://www.breitling.com/us-es/news/details/breitling-becomes-the-first-luxury-
 https://www.supplychainbrain.com/blogs/1-think-tank/post/34693-tackling-product-counterfeiting-with-blockchain#:~:text=Blockchain%20helps%20tackle%20counterfeiting%20by,level%2C%20from%20production%20to%20delivery.
 
 https://en.wikipedia.org/wiki/Non-fungible_token
+
+https://www.defianceetfs.com/nft-outlook-for-2022/
+
+<br/>
+<div align="right">
+    <b><a href="#top">↥ back to top</a></b>
+</div>
+<br/>
