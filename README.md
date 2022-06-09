@@ -284,16 +284,26 @@ Implementing permanent storage, encapsulating logic in library functions and abs
 <br/>
 
 ### References 
-* Counterfeit Goods, a Danger to Public Safety, https://www.ice.gov/features/dangers-counterfeit-items
-* Lollipuff Undercover: Fake Designer Bags in Asia, https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
-* 5 Brands Winning in the Metaverse, 
+Counterfeit Goods, a Danger to Public Safety
+https://www.ice.gov/features/dangers-counterfeit-items
+
+Lollipuff Undercover: Fake Designer Bags in Asia
+https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
+
+5 Brands Winning in the Metaverse
 https://www.thedrum.com/news/2022/06/01/5-brands-winning-the-metaverse
-* Breitling Becomes the First Luxury Watchmaker to Offer a Digital Passport Based on Blockchain for all of its New Watches, 
+
+Breitling Becomes the First Luxury Watchmaker to Offer a Digital Passport Based on Blockchain for all of its New Watches
 https://www.breitling.com/us-es/news/details/breitling-becomes-the-first-luxury-watchmaker-to-offer-a-digital-passport-based-on-blockchain-for-all-of-its-new-watches-33479  
-* How to Blockchain, Smart Tags are Tackling Counterfeit Goods, 
-https://www.supplychainbrain.com/blogs/1-think-tank/post/34693-tackling-product-counterfeiting-with-blockchain#:~:text=Blockchain%20helps%20tackle%20counterfeiting%20by,level%2C%20from%20production%20to%20delivery.
-* Non Fungible Tokens (Wikipedia article), https://en.wikipedia.org/wiki/Non-fungible_token
-* Defiance ETFs, NFT Outlook for 2022, https://www.defianceetfs.com/nft-outlook-for-2022/
+
+How to Blockchain, Smart Tags are Tackling Counterfeit Goods
+https://www.supplychainbrain.com/blogs/1-think-tank/post/34693-tackling-product-counterfeiting-with-blockchain#:~:text=Blockchain%20helps%20tackle%20counterfeiting%20by,level%2C%20from%20production%20to%20delivery
+
+Non Fungible Tokens (Wikipedia article)
+https://en.wikipedia.org/wiki/Non-fungible_token
+
+Defiance ETFs, NFT Outlook for 2022
+https://www.defianceetfs.com/nft-outlook-for-2022/
 
 <br/>
 <div align="right">
