@@ -38,10 +38,15 @@ In addition to the economic growth of legitimate business, the production and tr
 “Counterfeit products not only attack the name and value of a known business, but, in many cases, can cause harmful, and sometimes fatal, consequences for the unsuspecting buyer,” said Mark Zito, Deputy Special Agent in Charge for HSI Los Angeles.
 
 Some of the most dangerous counterfeit products involve automotive parts, electronics, safety equipment, cosmetics and prescription drugs due to the threats they represent to public health and safety.  Examples include: 
+
 * Counterfeit airbags and their components can cause severe malfunctions ranging from non-deployment, under inflation, over inflation to explosion of metal shrapnel during deployment in a crash.
+
 * Counterfeit lithium-ion laptop batteries pose significant risk of extreme heat, self-igniting, and exploding.
+
 * Counterfeit helmets and baby carriers can break.
+
 * Counterfeit prescription drugs may not contain the active ingredient or could lead to accidental overdose.
+
 * Counterfeit cosmetics can cause severe skin reactions.
 
 Fake products are everywhere. Fronm cosmetics to cooking oil and clothing, every industry suffers heavily due to counterfeit products. 
@@ -61,7 +66,9 @@ Smart tags are integral to a blockchain solution to eliminate the prevalence of 
 </br>
 
 * RFID tags: Radio frequency identification tags use radio waves for communication. A reader is required to receive signals from an RFID tag.
+*
 * QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
+*
 * NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
 
 This repository demonstrates the implementation of QR codes to reduce the annual cost of counterfeit production to the global economy, in addition to the health and safety threat of fraudulent products to consumers.
@@ -121,37 +128,51 @@ An NFT is controlled only by the person holding the private keys to the address 
 According to Wikipedia, the ownership of an NFT (as defined by the blockchain) has no inherent legal meaning, and does not necessarily grant copyright, intellectual property rights, or other legal rights over its associated digital file. An NFT does not restrict the sharing or copying of its associated digital file, and does not prevent the creation of NFTs that reference identical files.
 
 The writer is of the opinion that the Wikipedia entry may be inaccurate. In the matter of Hermès International, et al. v. Mason Rothschild, 1:22-cv-00384 [SDNY], Designer brand Hermes has commenced legal proceedings in connection with the ‘MetaBirkins’ NFT collection. The NFT collection includes images of furry renderings of the Hermes Birkin handbag, and the first was sold via Open Sea in December 2021 for $42,000.00 USD. 
-
-<img align="left" src="images/birn.jpeg">
-Smart tags are integral to a blockchain solution to eliminate the prevalence of counterfeiting. Some of the most commonly used smart tags include:
+<br/>
+<img align="left" src="images/birkin.jpeg">
 </br>
 Hermès is relying on its existing trademark rights to the BIRKIN word trademark and the BIRKIN bag’s trade dress as the basis for its claims of trademark infringement, false designation of origin, trademark dilution, cybersquatting, and injury to business reputation and dilution. 
 
 The Hermes case highlights key points for consideration in connection with trademark rights and the use of such trademarks as NFTs or within the metaverse, some of which include: 
 
 * Selling physical and virtual products via metaverse to a consumer in a jurisdiction where the manufacturer does not have trademark protection could lead to infringement proceedings if prior similar third party rights exist in that country. This risk factor affects smaller less established brands, as well known brands (for example - Nike, Adidas etc) can rely on their established reputation; and 
+
 * Trademarks are protected for those classes of goods and services for which they have been registered. The question for brands intending on selling virtual products in the metaverse is whether the virtual version of the manufacturers product could be covered by the same class or if this would require additional registration in other goods and services classes. 
 
-### NFT Market Outlook
+<br/>
+### Market Outlook
 
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million. 
-
-<br/>
+</br>
 
 ### Adoption of the Metaverse by Major Brands
 
+#### Coke
+<br/>
 <img align="left" src="images/coca.png">
 
 In July 2021, Coke teamed up Tafi (3D digital design studio) for its inaugural NFT campaign. The NFT campaign centered around “loot boxes,” that were virtual goodie bags containing a variety of digital assets, including a branded puffer jacket wearable NFT, a sound visualizer NFT, and a friendship card NFT. Combining utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands entering the metaverse.
 
+<img align="right" src="images/coke_03.jpg">
+<br/>
+
+#### Nike 
+<br/>
 <img align="left" src="images/nike-logo.png">
 
 Nikeland was one of the first major efforts from a top-tier brand to blend sales, marketing, and gaming. It also provided a virtual showroom where visitors could flaunt their avatars’ new virtual Nike gear. Nikeland has helped to prove the huge commercial value of the metaverse while simultaneously proving that a huge number of fans are genuinely keen on branded experiences in virtual environments.
+<br/>
+<img align="right" src="images/nike_01.jpg">
+<br/>
 
+#### Gucci
+<br/>
 <img align="left" src="images/gucci.png">
 
 In 2021, the global fashion brand launched “Gucci Garden Archetypes,” a two-week virtual experience “that explores and celebrates the house’s inimitable creative vision,” Gucci said in a statement at the time. The brand has also launched “Gucci Town,” which has been designed to be a virtual rendering of its concept store, as well as a space for visitors to socialise. These virtual experiences represent Gucci’s commitment to doing everything that it can to remain ahead of other global brands in a highly competitive market.
+</br>
 
+#### Adidas
 <img align="left" src="images/adidas.png">
 
 Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. The company has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
@@ -162,19 +183,25 @@ pepperMint() is an implementation of NFT technology in the real world, as oppose
 
 NFTs can be used to verify the authenticity of physical goods by storing all relevant information relating to a product in an NFT on a decentralized network.  The successful use of the technology is based on how the product to be protected can be connected to the DLT. pepperMint() achieves product protection with the use of QR codes in the NFT minting process. 
 
-### Benefits 
+### Features & Benefits 
 
 * Counterfeit and fraud prevention.
 
+* Consumers may verify the authenticity of their products and the legitimacy of their ownership. 
 
-### Features 
+* QR code 'smart tag' implementation.
 
-* Minting service that connects businesses to the Ethereum Virtual Machine. 
-* Our solidity smart contract adds a grade in the NFT description based on the order of minting       #TODO: Seek clarification from Gaetano?
-* Built on ethereum, tradable on multiple exchanges. 
-* Real world implementation. 
-* sha256 encoding.
-* QR code 'smart tag' implementation. 
+* NFT and product owners have the ability to transfer ownership. 
+
+* Eliminate the re-sale of stolen goods with a sustained reduction of the criminalised offence over time.
+
+* Existing solutions offering pre minted NFT's attract transfer fees that in most cases exceeds the minting fee. 
+
+* By contrast, PepperMint provides consumers with the ability to mint NFT's as part of the unboxing process.
+
+* The unboxing experience will result in user generated marketing content by the consumer. User-generated content is an effective marketing strategy. 
+
+* pepperMint() isn't reserved for global brands. Minting services available to business' of all sizes.
 
 Since 13 October 2020, all new Breitling watches are delivered with a blockchain based digital passport to guarantee the products authenticity. Consumers are afforded the benefit of blockchain technology, digital security and proof of ownership. 
 
@@ -184,13 +211,20 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 
 The current version of peppermint() relies on the following to achieve key functionality: 
 * Solidity: an object oriented programing langugage for implementing smart contracts on the Ethereum blockchain. 
+
 * Python: a high level, interpreted, general-purpose programming language. 
+
 * Ganache: a personal ethereum blockchain use to run tests, execute commands and inspect state while controlling how the chain operates. 
+
 * Metmask: cryptocurrency wallet used to interact with the Ethereum blockchain and decentralized applications. 
+
 * Streamlit: an open source app framework in the Python language used to create interactions with smart contracts and data science/ML models.
+
 * QRcode: Python based QR code generator.
 
-### User Journey 
+### User Experience
+
+
 
 
 
