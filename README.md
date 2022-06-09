@@ -12,7 +12,7 @@
   - [Blockchain as a Solution](#blockchain-as-a-solution)
   - [Meet the Team](#meet-the-team)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
-  - [Market Outlook)(#market-outlook)
+  - [Market Outlook](#market-outlook)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
   - [Introducting pepperMint()](#introducing-pepperMint())
   - [Technology Stack](#technology-stack)
@@ -155,24 +155,29 @@ Hermès is relying on its existing trademark rights to the BIRKIN word trademark
 ### Market Outlook
 <p>
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million. 
-![nft_sales](https://user-images.githubusercontent.com/95597283/172787523-61fc4ea8-3a75-4261-9bf0-248560f052ab.png)
 <p/>
 
-The lookout for 2022 is positive. Cointelegraph reports that more than 80% of consumers believe that a brand’s digital presence is as important as its physical presence, helping drive demand for branded NFT assets.
-<img align="left" src="images/nft_predict.png">
+<p>
+<img align="center" src="images/nft_sales.png">
 <p/>
-
 <br/>
+<p>
+The lookout for 2022 is positive. Cointelegraph reports that more than 80% of consumers believe that a brand’s digital presence is as important as its physical presence, helping drive demand for branded NFT assets.
+<img align="center" src="images/nft_predict.png">
+<p/>
+<br/>
+
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
 
+<p>
 ### Adoption of the Metaverse by Major Brands
-
+<p/>
+<br/>
 #### Coke
 <br/>
-<img align="left" src="images/coca.png">
 
 In July 2021, Coke teamed up Tafi (3D digital design studio) for its inaugural NFT campaign. The NFT campaign centered around “loot boxes,” that were virtual goodie bags containing a variety of digital assets, including a branded puffer jacket wearable NFT, a sound visualizer NFT, and a friendship card NFT. Combining utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands entering the metaverse.
 
@@ -271,18 +276,26 @@ The current version of peppermint() relies on the following to achieve key funct
 
 ### User Experience
 
+<p>
+<img align="center" src="images/Capture.PNG">
+<p/>
+<br/>
 
+<p>
+<img align="center" src="images/2Capture.PNG">
+<p/>
+<br/>
 
+<p>
+<img align="center" src="images/3Capture.PNG">
+<p/>
+<br/>
 
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
-
-
-
-
 
 ### Unancticipated Problems and Insights 
 
