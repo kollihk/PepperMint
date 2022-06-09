@@ -16,8 +16,8 @@
   - [pepperMint()](#pepperMint())
   -   [Sentiment Analysis](#sentiment-analysis)
   -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
-  -   ###Metaverse Adoption by Major Brands
-  -     [Coke](#coke)
+  -   [Metaverse Adoption by Major Brands](#Adoption of the Metaverse by Major Brands)
+  -   [Coke](#coke)
 
     
 ## Manufacturing and Distribution of Counterfeit Goods
