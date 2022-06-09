@@ -11,7 +11,7 @@
   - [Meet the Team](#meet-the-founders)
     - [Gaetano](#gaetano)
     - [Ebad](#ebad)
-    - [Harry](#harry)
+    - [Hari](#hari)
     - [Charbel](#charbel)
   - [pepperMint()](#pepperMint())
   -   [Sentiment Analysis](#sentiment-analysis)
@@ -83,7 +83,7 @@ This repository demonstrates the implementation of QR codes to reduce the annual
 
 <br/>
 
-#### Harry K Kolli ####
+#### Hari K Kolli ####
 
 <img align="left" src="images/profile_01.png"> 
 
