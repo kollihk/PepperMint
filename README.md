@@ -191,15 +191,13 @@ Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop c
 
 ## Public Sentiment 
 <p>
-<img align="left" src="images/land_rush.jpg">
+<img align="center" src="images/land_rush.jpg">
 </p>
 <br/>
 
 # pepperMint()
 <p>
-pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. Our blockchain solution is a representation for an entirely tokenised economy, where smart contracts trade assets and commodities, and consumers can see the history of goods they purchase via immutable blockchain records. 
-
-Our smart contracts reduce and eliminate counterfeit production, and is the conduit for intellectual property right validation and enforcement for small sized business' and multinational corporations. 
+pepperMint() is an implementation of NFT technology in the real world, as opposed to the metaverse, whereby counterfeit products are known to cause significant harm to businesses and consumers globally. Our blockchain solution is a representation for an entirely tokenised economy, where smart contracts trade assets and commodities, and consumers can see the history of goods they purchase via immutable blockchain records. The purpose of our smart contract is to reduce and eliminate counterfeit production, and to act as the conduit for intellectual property rights validation and enforcement for small sized business' and multinational corporations. 
 
 ### Features & Benefits 
 
@@ -222,6 +220,8 @@ Our smart contracts reduce and eliminate counterfeit production, and is the cond
 * The unboxing experience will result in user generated marketing content by the consumer. User-generated content is an effective marketing strategy. 
 
 * pepperMint() isn't reserved for global brands. Minting services available to business' of all sizes.
+
+### Breitling's implementation of a blockchain solution benefiting their customers
 
 Since 13 October 2020, all new Breitling watches are delivered with a blockchain based digital passport to guarantee the products authenticity. Consumers are afforded the benefit of blockchain technology, digital security and proof of ownership. 
 
@@ -251,11 +251,6 @@ The current version of peppermint() relies on the following to achieve key funct
 ### User Experience
 
 <p>
-<img align="center" src="images/Capture.PNG">
-<p/>
-<br/>
-
-<p>
 <img align="center" src="images/2Capture.PNG">
 <p/>
 <br/>
@@ -273,19 +268,24 @@ The current version of peppermint() relies on the following to achieve key funct
 
 ### Unancticipated Problems and Insights 
 
-The peppermint() smart contract takes the name and symbol of a tokenised asset and invokes a peppermint instance. 
+The peppermint() smart contract accepts the name and symbol of a tokenised asset and invokes a peppermint instance. When there are multiple instances of the same contract, the cost of the resulting transactions (gas) will increase by a multiple equivalent to the number of instances generated in the pepperMint() smart contract. 
 
-Screengrab/code 
+An upgradable smart contract will contribute to a significant reduction in transaction costs. 
 
-We have multiple instances on the same contract. 
+Ethereum contracts are ummutable. Once they are deployed to the blockchain they cannot be updated, however the need to alter their logic with time is necessary. During a contract upgrade, the following factors need to be considered - 
+* Block gas limit, and 
+* Inter-contract dependencies. 
 
-Screenshot/code
+The underlying principles for upgrading an immutable contract can be found in the Ethereum white paper 'DAO' seciton (https://github.com/ethereum/wiki/wiki/White-Paper#decentralized-autonomous-organizations) which states - 
 
-The 'peppermint factory' smart contract instantiates the peppermint() smart contract. 
+> Although code is theoretically immutable, one can easily get around this and have de-facto mutability by having chunks of the code in separate contracts, and having the address of which contracts to call stored in the modifiable storage.
 
-Screenshot/code
+The following must be considered when deploying an upgradable smart contract: 
+* Implementation of permanent storage. 
+* Encapsulating logic in a library of functions. 
+* Abstracting via an interface. 
 
-The cost of the resulting gas transactions will increase by a multiple equivalent to the number of instances generated in the peppermint() smart contract. An upgradable contract will help reduce transaction costs by 90 percent. 
+Implementing permanent storage, encapsulating logic in library functions and abstracting via an interface are all in line with this principle where we use address pointers in the calling Organisation contract for interacting with storage and business logic. 
 
 <br/>
 <div align="right">
@@ -319,8 +319,7 @@ The cost of the resulting gas transactions will increase by a multiple equivalen
 <br/>
 
 ### References 
-* Counterfeit Goodsd, a Danger to Public Safety, 
-https://www.ice.gov/features/dangers-counterfeit-items
+* Counterfeit Goods, a Danger to Public Safety, https://www.ice.gov/features/dangers-counterfeit-items
 * Lollipuff Undercover: Fake Designer Bags in Asia, https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
 * 5 Brands Winning in the Metaverse, 
 https://www.thedrum.com/news/2022/06/01/5-brands-winning-the-metaverse
