@@ -115,13 +115,6 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 </div>
 <br/>
 
-<br/>
-<div align="right">
-    <b><a href="#top">↥ back to top</a></b>
-</div>
-<br/>
-
-
 ## What is an Non Fungible Token (NFT)?
 
 > A non-fungible token (NFT) is a financial security consisting of digital data stored in a blockchain, a form of distributed ledger. Each token is unique and not interchangeable. The ownership of an NFT is recorded in the blockchain which allows the token to be sold and traded by the owner. 
@@ -151,7 +144,6 @@ Hermès is relying on its existing trademark rights to the BIRKIN word trademark
 </div>
 <br/>
 
-
 ### Market Outlook
 <p>
 The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to more than $17 billion, up by 21,000% over 2020's total of $82 million. 
@@ -163,46 +155,30 @@ The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 i
 <br/>
 <p>
 The lookout for 2022 is positive. Cointelegraph reports that more than 80% of consumers believe that a brand’s digital presence is as important as its physical presence, helping drive demand for branded NFT assets.
-<img align="center" src="images/nft_predict.png">
-<p/>
-<br/>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
-<br/>
 
-<p>
 ### Adoption of the Metaverse by Major Brands
 <p/>
 <br/>
-#### Coke
-<br/>
 
+<img align="left" src="images/coca.png">
 In July 2021, Coke teamed up Tafi (3D digital design studio) for its inaugural NFT campaign. The NFT campaign centered around “loot boxes,” that were virtual goodie bags containing a variety of digital assets, including a branded puffer jacket wearable NFT, a sound visualizer NFT, and a friendship card NFT. Combining utility with nostalgia, Coca-Cola’s debut NFT drop is an iconic case study for brands entering the metaverse.
-
-<img align="right" src="images/coke_03.jpg">
 <br/>
 
-#### Nike 
 <br/>
 <img align="left" src="images/nike-logo.png">
-
 Nikeland was one of the first major efforts from a top-tier brand to blend sales, marketing, and gaming. It also provided a virtual showroom where visitors could flaunt their avatars’ new virtual Nike gear. Nikeland has helped to prove the huge commercial value of the metaverse while simultaneously proving that a huge number of fans are genuinely keen on branded experiences in virtual environments.
 <br/>
-<img align="right" src="images/nike_01.jpg">
-<br/>
 
-#### Gucci
-<br/>
+
 <img align="left" src="images/gucci.png">
-
 In 2021, the global fashion brand launched “Gucci Garden Archetypes,” a two-week virtual experience “that explores and celebrates the house’s inimitable creative vision,” Gucci said in a statement at the time. The brand has also launched “Gucci Town,” which has been designed to be a virtual rendering of its concept store, as well as a space for visitors to socialise. These virtual experiences represent Gucci’s commitment to doing everything that it can to remain ahead of other global brands in a highly competitive market.
 </br>
 
-#### Adidas
 <img align="left" src="images/adidas.png">
-
 Adidas made Web3 history when it launched “Into the Metaverse,” a NFT drop created in partnership with NFT companies Gmoney, Punks Comic, and Bored Ape Yacht Club in late 2021. The company has been able to effectively leverage the NFT marketplace and the metaverse to promote the ethos of individuality and self-expression that the brand has long pushed for in its traditional marketing. “We've embarked on the new age of originality, we said from the very beginning that if we're going to be the brand that’s going to stand for, represent and help push the values of this new generation into the world, then we must move at the speed of culture,” Erika Wykes-Sneyd, Adidas’ vice president of brand communications, said in a statement from December 2021, around the launch of “Into the Metaverse.” “This goes back to the principles of Adidas, where we embrace the edge, open the door for the new and act with rebellious optimism.”
 
 <br/>
