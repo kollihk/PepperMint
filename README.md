@@ -9,10 +9,10 @@
 - [Table of Contents](#table-of-contents)
   - [Manufacturing and Distribution of Counterfeit Goods](#manufacturing-and-distribution-of-counterfeit-goods)
   - [Fraud and Crypto](#fraud-and-crypto)
-  - [Blockchain as a Solution)(#blockchain-as-a-solution)
+  - [Blockchain as a Solution](#blockchain-as-a-solution)
   - [Meet the Team](#meet-the-team)
   - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
-  - [Market Outlook)(#market-outlook)(#market-outlook)
+  - [Market Outlook)(#market-outlook)
   - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
   - [Introducting pepperMint()](#introducing-pepperMint())
   - [Technology Stack](#technology-stack)
@@ -331,24 +331,18 @@ The cost of the resulting gas transactions will increase by a multiple equivalen
 </div>
 <br/>
 
-
 ### References 
-
+* Counterfeit Goodsd, a Danger to Public Safety, 
 https://www.ice.gov/features/dangers-counterfeit-items
-
-https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
-
+* Lollipuff Undercover: Fake Designer Bags in Asia, https://www.lollipuff.com/lollipuff-undercover-fake-designer-bags-in-asia/
+* 5 Brands Winning in the Metaverse, 
 https://www.thedrum.com/news/2022/06/01/5-brands-winning-the-metaverse
-
-https://www.ice.gov/features/dangers-counterfeit-items
-
+* Breitling Becomes the First Luxury Watchmaker to Offer a Digital Passport Based on Blockchain for all of its New Watches, 
 https://www.breitling.com/us-es/news/details/breitling-becomes-the-first-luxury-watchmaker-to-offer-a-digital-passport-based-on-blockchain-for-all-of-its-new-watches-33479  
-
+* How to Blockchain, Smart Tags are Tackling Counterfeit Goods, 
 https://www.supplychainbrain.com/blogs/1-think-tank/post/34693-tackling-product-counterfeiting-with-blockchain#:~:text=Blockchain%20helps%20tackle%20counterfeiting%20by,level%2C%20from%20production%20to%20delivery.
-
-https://en.wikipedia.org/wiki/Non-fungible_token
-
-https://www.defianceetfs.com/nft-outlook-for-2022/
+* Non Fungible Tokens (Wikipedia article), https://en.wikipedia.org/wiki/Non-fungible_token
+* Defiance ETFs, NFT Outlook for 2022, https://www.defianceetfs.com/nft-outlook-for-2022/
 
 <br/>
 <div align="right">
