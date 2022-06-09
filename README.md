@@ -7,12 +7,16 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
+  - [Manufacturing and Distribution of Counterfeit Goods](#manufacturing-and-distribution-of-counterfeit-goods)
+  - [Fraud and Crypto](#fraud-and-crypto)
+  - [Blockchain as a Solution)(#blockchain-as-a-solution)
   - [Meet the Team](#meet-the-founders)
-    - [Gaetano](#gaetano)
+    - [Gaetano Boungiorno]
     - [Ebad](#ebad)
     - [Hari](#hari)
     - [Charbel](#charbel)
+  - [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(NFT)-?)
+  - [Adoption of the Metaverse by Major Brands](#adoption-of-the-metaverse-by-major-brands)
   - [pepperMint()](#pepperMint())
   -   [Sentiment Analysis](#sentiment-analysis)
   -   [What is a Non Fungible Token (NFT)?](#what-is-a-non-fungible-token-(nft)-?)
