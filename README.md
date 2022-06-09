@@ -91,7 +91,7 @@ This repository demonstrates the implementation of QR codes to reduce the annual
 
 <img align="left" src="images/profile_01.png"> 
 
-Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
+Senior Software Engineer and Fintech Professional, with expertise in Python, Solidty, C, C++, Java and Linux.
 
 <br/>
 
@@ -107,8 +107,7 @@ Counterfeit products are goods of inferior quality that are manufactured and dis
 
 <img align="left" src="images/profile_01.png"> 
 
-Counterfeit products are goods of inferior quality that are manufactured and distributed under another brand's name without the brand owner's authorization. Sellers of counterfeit products profit by infringing on the trademark, patent or copyright of the brand owner by passing off its goods as made by the brand owner.
-
+Registered migration agent, company director, fintech professional and aspiring blockchain developer.
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
