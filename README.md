@@ -64,7 +64,7 @@ Smart tags are integral to a blockchain solution to eliminate the prevalence of 
 * QR codes: They are widely used by businesses for purposes such as payments and shipment tracking. Unlike RFID tags, QR codes can be read by any smartphone or tablet, making it convenient for businesses to view shipment status. 
 * NFC chips: NFC stands for near-field communication chip, a silicon component that can be attached to an antenna to enable short-range wireless communication between two devices. Combining a uniquely programmed NFC chip with blockchain leads to increased transparency and trust in the supply chain.
 
-This repository demonstrates the implementation of QR codes to reduce (short term) and eliminate (long term) the overall impact of counterfeit production.
+This repository demonstrates the implementation of QR codes to reduce the annual cost of counterfeit production to the global economy, in addition to the health and safety threat of fraudulent products to consumers.
 
 <br/>
 <div align="right">
@@ -180,53 +180,13 @@ https://user-images.githubusercontent.com/95597283/172084515-513613e4-a450-48a7-
 
 ### Technology Stack
 
-#### Solidity
-
-Solidity is an object oriented programming language for implementing smart contracts on the Ethereum blockchain. 
-
-```ruby
-pragma solidity ^0.5.0;
-
-import "./ERC721.sol";
-import "./ERC721Enumerable.sol";
-import "./ERC721Metadata.sol";
-
-/**
- * @title Full ERC721 Token
- * @dev This implementation includes all the required and some optional functionality of the ERC721 standard
- * Moreover, it includes approve all functionality using operator terminology.
- *
- * See https://eips.ethereum.org/EIPS/eip-721
- */
-contract ERC721Full is ERC721, ERC721Enumerable, ERC721Metadata {
-    constructor (string memory name, string memory symbol) public ERC721Metadata(name, symbol) {
-        // solhint-disable-previous-line no-empty-blocks
-    }
-}
-```
-
-#### Python 
-
-Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
-
-
-
-#### Streamlit 
-
-Streamlit is an open source app framework in Python language and was used to create the front end for interaction with our solidity smart contract(s). 
-
-
-
-### Ganache
-
-Personal Ethereum blockchain used to run tests, execute commands and inspect state while controlling how the chain operates. 
-
-
-
-
-### Metamask 
-
-MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications. 
+The current version of peppermint() relies on the following to achieve key functionality: 
+* Solidity: an object oriented programing langugage for implementing smart contracts on the Ethereum blockchain. 
+* Python: a high level, interpreted, general-purpose programming language. 
+* Ganache: a personal ethereum blockchain use to run tests, execute commands and inspect state while controlling how the chain operates. 
+* Metmask: cryptocurrency wallet used to interact with the Ethereum blockchain and decentralized applications. 
+* Streamlit: an open source app framework in the Python language used to create interactions with smart contracts and data science/ML models.
+* QRcode: Python based QR code generator.
 
 ### User Journey 
 
@@ -236,9 +196,19 @@ MetaMask is a software cryptocurrency wallet used to interact with the Ethereum 
 
 ### Unancticipated Problems and Insights 
 
+The peppermint() smart contract takes the name and symbol of a tokenised asset and invokes a peppermint instance. 
 
+Screengrab/code 
 
+We have multiple instances on the same contract. 
 
+Screenshot/code
+
+The 'peppermint factory' smart contract instantiates the peppermint() smart contract. 
+
+Screenshot/code
+
+The cost of the resulting gas transactions will increase by a multiple equivalent to the number of instances generated in the peppermint() smart contract. An upgradable contract will help reduce transaction costs by 90 percent. 
 
 ### Additional Questions for Exploration 
 
