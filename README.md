@@ -238,20 +238,18 @@ The peppermint() smart contract accepts the name and symbol of a tokenised asset
 
 An upgradable smart contract will contribute to a significant reduction in transaction costs. 
 
-Ethereum contracts are ummutable. Once they are deployed to the blockchain they cannot be updated, however the need to alter their logic with time is necessary. During a contract upgrade, the following factors need to be considered - 
-* Block gas limit, and 
+Ethereum contracts are immutable. Once they are deployed to the blockchain they cannot be updated, however the need to alter their logic via upgradable contracts with time is necessary. During a contract upgrade, the following issues are considered:
+* Block gas limit.
 * Inter-contract dependencies. 
-
-The underlying principles for upgrading an immutable contract can be found in the Ethereum white paper 'DAO' seciton (https://github.com/ethereum/wiki/wiki/White-Paper#decentralized-autonomous-organizations) which states - 
-
-> Although code is theoretically immutable, one can easily get around this and have de-facto mutability by having chunks of the code in separate contracts, and having the address of which contracts to call stored in the modifiable storage.
-
-The following must be considered when deploying an upgradable smart contract: 
 * Implementation of permanent storage. 
 * Encapsulating logic in a library of functions. 
 * Abstracting via an interface. 
 
-Implementing permanent storage, encapsulating logic in library functions and abstracting via an interface are all in line with this principle where we use address pointers in the calling Organisation contract for interacting with storage and business logic. 
+The underlying principles for upgrading an immutable contract can be found in the Ethereum white paper 'DAO' seciton (https://github.com/ethereum/wiki/wiki/White-Paper#decentralized-autonomous-organizations) which states:
+
+> Although code is theoretically immutable, one can easily get around this and have de-facto mutability by having chunks of the code in separate contracts, and having the address of which contracts to call stored in the modifiable storage.
+
+Implementing permanent storage, encapsulating logic in library functions and abstracting via an interface are all in line with the principle where address pointers are used in the calling the original smart contract for interacting with storage and business logic. 
 
 <br/>
 <div align="right">
